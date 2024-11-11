@@ -1,0 +1,99 @@
+---
+// Remove current url path and remove trailing slash if exists
+const currentUrlPath = Astro.url.pathname.replace(/\/+$/, "");
+
+// Get url array from path
+// eg: /tags/tailwindcss => ['tags', 'tailwindcss']
+const breadcrumbList = currentUrlPath.split("/").slice(1);
+
+const breadcrumbDisplayList = [...breadcrumbList];
+
+// Capitalize first letter of each word
+if (breadcrumbDisplayList[0] === "tu-khoa") {
+  breadcrumbDisplayList[0] = "Từ khóa";
+}
+
+if (breadcrumbDisplayList[0] === "bai-viet") {
+  breadcrumbDisplayList[0] = "Bài viết";
+  breadcrumbDisplayList[1] = `Trang ${breadcrumbDisplayList[1] || 1}`;
+}
+
+if (breadcrumbDisplayList[0] === "ve-blog") {
+  breadcrumbDisplayList[0] = "Về blog";
+}
+
+if (breadcrumbDisplayList[0] === "luu-tru") {
+  breadcrumbDisplayList[0] = "Lưu trữ";
+}
+
+if (breadcrumbDisplayList[0] === "tim-kiem") {
+  breadcrumbDisplayList[0] = "Tìm kiếm";
+}
+
+breadcrumbList[0] === "posts" &&
+  breadcrumbList.splice(0, 2, `Posts (page ${breadcrumbList[1] || 1})`);
+
+breadcrumbList[0] === "tags" &&
+  !isNaN(Number(breadcrumbList[2])) &&
+  breadcrumbList.splice(
+    1,
+    3,
+    `${breadcrumbList[1]} ${
+      Number(breadcrumbList[2]) === 1 ? "" : "(page " + breadcrumbList[2] + ")"
+    }`
+  );
+
+if (breadcrumbDisplayList[0] === "Từ khóa" && !isNaN(Number(breadcrumbDisplayList[2]))) {
+  breadcrumbDisplayList.splice(
+    2,
+    1,
+    `${Number(breadcrumbDisplayList[2]) === 1 ? "" : "(page " + breadcrumbDisplayList[2] + ")"}`
+  );
+}
+---
+
+<nav class="breadcrumb" aria-label="breadcrumb">
+  <ul>
+    <li>
+      <a href="/">Trang chủ</a>
+      <span aria-hidden="true">&raquo;</span>
+    </li>
+    {
+      breadcrumbDisplayList.map((breadcrumb, index) =>
+        index + 1 === breadcrumbDisplayList.length ? (
+          <li>
+            <span
+              class={`${index > 0 ? "lowercase" : "capitalize"}`}
+              aria-current="page"
+            >
+              {decodeURIComponent(breadcrumb)}
+            </span>
+          </li>
+        ) : (
+          <li>
+            <a href={`/${breadcrumbList[index]}/`}>{breadcrumb}</a>
+            <span aria-hidden="true">&raquo;</span>
+          </li>
+        )
+      )
+    }
+  </ul>
+</nav>
+
+<style>
+  .breadcrumb {
+    @apply mx-auto mb-1 mt-8 w-full max-w-3xl px-4;
+  }
+  .breadcrumb ul li {
+    @apply inline;
+  }
+  .breadcrumb ul li a {
+    @apply capitalize opacity-70;
+  }
+  .breadcrumb ul li span {
+    @apply opacity-70;
+  }
+  .breadcrumb ul li:not(:last-child) a {
+    @apply hover:opacity-100;
+  }
+</style>

@@ -1,0 +1,24 @@
+---
+import { getCollection } from "astro:content";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Tag from "@components/Tag.astro";
+import getUniqueTags from "@utils/getUniqueTags";
+import { SITE } from "@config";
+
+const posts = await getCollection("blog");
+
+let tags = getUniqueTags(posts);
+---
+
+<Layout title={`Từ khóa | ${SITE.title}`}>
+  <Header activeNav="tags" />
+  <Main pageTitle="Từ khóa" pageDesc="Tất cả các từ khóa được sử dụng trong bài viết.">
+    <ul>
+      {tags.map(({ tag }) => <Tag {tag} size="lg" />)}
+    </ul>
+  </Main>
+  <Footer />
+</Layout>

@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://base-niche-site.vercel.app/", // replace this with your deployed domain
+  website: "https://manguonmo.tech/", // replace this with your deployed domain
   author: "Diep Do",
   profile: "https://avatars.githubusercontent.com/u/93646638?v=4",
   desc: "Khám phá mã nguồn mở cùng những kiến thức, kinh nghiệm hữu ích cho lập trình viên và người yêu công nghệ. Blog chia sẻ thông tin dễ hiểu cho mọi đối tượng!",

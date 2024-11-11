@@ -14,8 +14,9 @@ if (breadcrumbDisplayList[0] === "tu-khoa") {
 }
 
 if (breadcrumbDisplayList[0] === "bai-viet") {
-  breadcrumbDisplayList[0] = "Bài viết";
-  breadcrumbDisplayList[1] = `Trang ${breadcrumbDisplayList[1] || 1}`;
+  const page = breadcrumbDisplayList[1] || 1;
+  breadcrumbDisplayList[0] = `Bài viết (Trang ${page})`;
+  breadcrumbDisplayList[1] = 'Kiến Thức và Cảm Hứng'
 }
 
 if (breadcrumbDisplayList[0] === "ve-blog") {

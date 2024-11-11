@@ -14,7 +14,12 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     react(),
-    sitemap(),
+    sitemap({
+      filter: (page) => {
+        const excludedPaths = ["/post/", "/tags/", "/about/", "/archives/", "/search/"];
+        return !excludedPaths.some(path => page.includes(path));
+      },
+    }),
   ],
   markdown: {
     remarkPlugins: [

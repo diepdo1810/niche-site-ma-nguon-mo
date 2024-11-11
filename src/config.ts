@@ -2,22 +2,23 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://base-niche-site.vercel.app/", // replace this with your deployed domain
-  author: "Base Niche Site",
+  author: "Diep Do",
   profile: "https://avatars.githubusercontent.com/u/93646638?v=4",
-  desc: "A niche site built with Astro",
-  title: "Base Niche Site",
+  desc: "Khám phá mã nguồn mở cùng những kiến thức, kinh nghiệm hữu ích cho lập trình viên và người yêu công nghệ. Blog chia sẻ thông tin dễ hiểu cho mọi đối tượng!",
+  title: "Mã Nguồn Mở – Kiến Thức Cộng Đồng Công Nghệ và Cảm Hứng Mới",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 6,
   scheduledPostMargin: 15 * 60 * 1000,
   showArchives: true,
+  titleHeader: "Mã Nguồn Mở",
 };
 
 export const HERO = {
   enable: true,
-  title: "Base Niche Site",
-  description: "A niche site built with Astro",
+  title: "Mã nguồn mở",
+  description: "👋 Mình đam mê mã nguồn mở và thích khám phá những dự án, công cụ thú vị trong cộng đồng công nghệ. Blog này là nơi mình chia sẻ trải nghiệm và kiến thức về mã nguồn mở, mong muốn truyền cảm hứng và mang lại thông tin hữu ích cho cả lập trình viên và những ai yêu thích công nghệ, dù chưa có nhiều kiến thức chuyên môn!",
 }
 
 export const LOCALE = {

@@ -16,6 +16,11 @@ let tags = getUniqueTags(posts);
 <Layout title={`Từ khóa | ${SITE.title}`}>
   <Header activeNav="tags" />
   <Main pageTitle="Từ khóa" pageDesc="Tất cả các từ khóa được sử dụng trong bài viết.">
+    {
+      tags.length === 0 && (
+        <p>Không có từ khóa nào.</p>
+      )
+    }
     <ul>
       {tags.map(({ tag }) => <Tag {tag} size="lg" />)}
     </ul>

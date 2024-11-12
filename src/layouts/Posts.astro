@@ -19,6 +19,9 @@ const { page } = Astro.props;
 <Layout title={`Bài viết | ${SITE.title}`}>
   <Header activeNav="posts" />
   <Main pageTitle="Bài viết" pageDesc="Tất cả các bài viết đã đăng.">
+    {page.data.length === 0 && (
+      <p>Không có bài viết nào.</p>
+    )}
     <ul>
       {
         page.data.map(({ data, slug }) => (

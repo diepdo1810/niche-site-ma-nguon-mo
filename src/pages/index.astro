@@ -105,6 +105,15 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       )
     }
 
+    {
+      featuredPosts.length === 0 && recentPosts.length === 0 && (
+        <section id="no-posts" class="all-posts-btn-wrapper">
+          <h2>Bài viết gần đây</h2>
+          <p>Không có bài viết nào.</p>
+        </section>
+      )
+    }
+
     <div class="all-posts-btn-wrapper">
       <LinkButton href="/bai-viet/">
         Tất cả bài viết

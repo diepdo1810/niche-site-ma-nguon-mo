@@ -23,12 +23,12 @@ export default defineConfig({
   ],
   markdown: {
     remarkPlugins: [
-      [remarkToc, { heading: "Mục Lục" }],
+      [remarkToc, { heading: "Nội dung" }],
       [
         remarkCollapse,
         {
-          test: "Mục Lục",
-          summary: "Mở Mục Lục",
+          test: "Nội dung",
+          summary: "Mục lục",
         },
       ],
     ],

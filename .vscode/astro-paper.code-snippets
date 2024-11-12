@@ -26,7 +26,7 @@
       "",
       "${2: Introductory Sentence}",
       "",
-      "## Table of contents",
+      "## Nội dung",
       "",
       "## ${3: heading 1}",
     ],

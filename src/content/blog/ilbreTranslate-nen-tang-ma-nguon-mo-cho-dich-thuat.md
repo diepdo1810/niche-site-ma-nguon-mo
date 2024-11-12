@@ -22,11 +22,25 @@ Xem thêm:
  - List item
  - List item
 
-## Mục Lục
+## Nội dung
 
-## LibreTranslate – Nền tảng mã nguồn mở cho dịch thuật
+# LibreTranslate – Nền tảng mã nguồn mở cho dịch thuật
 
-## 
+## Mã nguồn mở là gì và tại sao lại quan trọng?
+
+## Giới thiệu LibreTranslate – Phần mềm dịch thuật mã nguồn mở
+
+### Đặc điểm nổi bật của LibreTranslate
+
+### Ưu điểm của việc sử dụng LibreTranslate
+
+### Ứng dụng của LibreTranslate trong các dự án mã nguồn mở
+
+## Hướng dẫn cài đặt LibreTranslate từ GitHub
+
+## Tại sao LibreTranslate khác biệt với các dịch vụ API dịch thuật khác?
+
+## Tương lai và phát triển
 
 
 

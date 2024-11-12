@@ -16,7 +16,8 @@ export default defineConfig({
     react(),
     sitemap({
       filter: (page) => {
-        const excludedPaths = ["/post/", "/tags/", "/about/", "/archives/", "/search/"];
+        console.log(page);
+        const excludedPaths = ["/posts/", "/tags/", "/about/", "/archives/", "/search/"];
         return !excludedPaths.some(path => page.includes(path));
       },
     }),

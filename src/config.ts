@@ -4,8 +4,8 @@ export const SITE: Site = {
   website: "https://manguonmo.tech/", // replace this with your deployed domain
   author: "Diep Do",
   profile: "https://avatars.githubusercontent.com/u/93646638?v=4",
-  desc: "Khám phá mã nguồn mở cùng những kiến thức, kinh nghiệm hữu ích cho lập trình viên và người yêu công nghệ. Blog chia sẻ thông tin dễ hiểu cho mọi đối tượng!",
-  title: "Mã Nguồn Mở – Kiến Thức Cộng Đồng Công Nghệ và Cảm Hứng Mới",
+  desc: "Cùng khám phá mã nguồn mở với các kiến thức và nguồn cảm hứng mới, kết nối cộng đồng công nghệ và lập trình viên tại Việt Nam.",
+  title: "Mã Nguồn Mở – Khám Phá Kiến Thức Công Nghệ và Cộng Đồng Việt Nam",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,

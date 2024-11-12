@@ -13,7 +13,8 @@ const posts = await getCollection("blog");
 let tags = getUniqueTags(posts);
 ---
 
-<Layout title={`Từ khóa | ${SITE.title}`}>
+<Layout title={`Từ khóa | ${SITE.title}`} titleMeta="Khám Phá Từ Khóa Mã Nguồn Mở – Chủ Đề Công Nghệ Nổi Bật"
+        descriptionMeta="Danh sách từ khóa và chủ đề mã nguồn mở phổ biến, giúp bạn tìm kiếm kiến thức và cập nhật xu hướng công nghệ mới.">
   <Header activeNav="tags" />
   <Main pageTitle="Từ khóa" pageDesc="Tất cả các từ khóa được sử dụng trong bài viết.">
     {

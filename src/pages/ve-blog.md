@@ -1,6 +1,8 @@
 ---
 layout: ../layouts/AboutLayout.astro
 title: "Về blog"
+titleMeta: "Về Blog Mã Nguồn Mở – Nơi Chia Sẻ Kiến Thức Công Nghệ"
+descriptionMeta: "Blog mã nguồn mở chia sẻ kiến thức, cảm hứng và tài nguyên công nghệ mã nguồn mở, hướng đến cộng đồng lập trình Việt Nam."
 ---
 
 # 👋 Chào Mừng Bạn Đến Với Thế Giới Mã Nguồn Mở!

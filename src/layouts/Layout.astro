@@ -16,6 +16,8 @@ export interface Props {
   pubDatetime?: Date;
   modDatetime?: Date | null;
   scrollSmooth?: boolean;
+  titleMeta?: string;
+  descriptionMeta?: string;
 }
 
 const {
@@ -28,6 +30,8 @@ const {
   pubDatetime,
   modDatetime,
   scrollSmooth = false,
+  titleMeta,
+  descriptionMeta,
 } = Astro.props;
 
 const socialImageURL = new URL(
@@ -66,8 +70,8 @@ const structuredData = {
 
     <!-- General Meta Tags -->
     <title>{title}</title>
-    <meta name="title" content={title} />
-    <meta name="description" content={description} />
+    <meta name="title" content={titleMeta ?? title} />
+    <meta name="description" content={descriptionMeta ?? description} />
     <meta name="author" content={author} />
     <link rel="sitemap" href="/sitemap-index.xml" />
 

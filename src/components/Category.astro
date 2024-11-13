@@ -4,7 +4,7 @@ export interface Props {
   size?: "sm" | "lg";
 }
 
-const { category, size = "sm" } = Astro.props;
+const { category, size = "sm" , categoryName} = Astro.props;
 ---
 
 <li
@@ -24,7 +24,7 @@ const { category, size = "sm" } = Astro.props;
       hover:border-blue-200 dark:hover:border-gray-600
       shadow-sm hover:shadow-md
       font-medium`}
-     title={`Xem bài viết trong chuyên mục ${category}`}
+     title={`Xem bài viết trong chuyên mục ${categoryName}`}
      aria-label={`Chuyên mục ${category}`}
   >
     <svg
@@ -47,7 +47,7 @@ const { category, size = "sm" } = Astro.props;
       />
     </svg>
     <span class="capitalize group-hover:translate-x-0.5 transition-transform duration-300">
-      {category}
+      {categoryName}
     </span>
   </a>
 </li>

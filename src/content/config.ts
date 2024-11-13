@@ -40,7 +40,6 @@ const categories = defineCollection({
   schema: () =>
     z.object({
       title: z.string(),
-      slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, { message: "Slug must be a valid URL slug." }),
       description: z.string().optional(),
     }),
 });

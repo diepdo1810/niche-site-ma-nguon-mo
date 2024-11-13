@@ -1,0 +1,53 @@
+---
+export interface Props {
+  category: string;
+  size?: "sm" | "lg";
+}
+
+const { category, size = "sm" } = Astro.props;
+---
+
+<li
+  class={`inline-block ${
+    size === "sm" ? "my-1.5" : "my-3"
+  } animate-fadeIn`}
+>
+
+  <a href={`/chuyen-muc/${category}/`}
+     class={`group inline-flex items-center gap-2 rounded-lg transition-all duration-300 ease-in-out
+      ${size === "sm" ? "text-sm py-1.5 px-3" : "text-base py-2.5 px-4"}
+      bg-white dark:bg-gray-800
+      hover:bg-blue-50 dark:hover:bg-gray-700
+      text-gray-700 dark:text-gray-200
+      hover:text-blue-600 dark:hover:text-blue-400
+      border border-gray-200 dark:border-gray-700
+      hover:border-blue-200 dark:hover:border-gray-600
+      shadow-sm hover:shadow-md
+      font-medium`}
+     title={`Xem bài viết trong chuyên mục ${category}`}
+     aria-label={`Chuyên mục ${category}`}
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class={`${
+        size === "sm" ? "w-4 h-4" : "w-5 h-5"
+      } text-gray-400 dark:text-gray-500 
+      transition-all duration-300
+      group-hover:text-blue-500 dark:group-hover:text-blue-400 
+      transform group-hover:scale-110`}
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A2 2 0 013 12V7a4 4 0 014-4z"
+      />
+    </svg>
+    <span class="capitalize group-hover:translate-x-0.5 transition-transform duration-300">
+      {category}
+    </span>
+  </a>
+</li>

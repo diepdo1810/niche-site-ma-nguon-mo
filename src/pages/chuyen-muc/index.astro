@@ -1,0 +1,30 @@
+---
+import { getCollection } from "astro:content";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Category from "@components/Category.astro";
+import getUniqueCategories from "@utils/getUniqueCategories";
+import { SITE } from "@config";
+
+const posts = await getCollection("blog");
+
+let categories = getUniqueCategories(posts);
+---
+
+<Layout title={`Chuyên Mục | ${SITE.title}`} titleMeta="Khám Phá Các Chuyên Mục Công Nghệ – Danh Sách Chuyên Mục Nổi Bật"
+        descriptionMeta="Danh sách chuyên mục và chủ đề công nghệ phổ biến, giúp bạn tìm kiếm kiến thức và cập nhật xu hướng công nghệ mới.">
+  <Header activeNav="categories" />
+  <Main pageTitle="Chuyên Mục" pageDesc="Tất cả các chuyên mục được sử dụng trong bài viết.">
+    {
+      categories.length === 0 && (
+        <p>Không có chuyên mục nào.</p>
+      )
+    }
+    <ul>
+      {categories.map(({ category }) => <Category {category} size="lg" />)}
+    </ul>
+  </Main>
+  <Footer />
+</Layout>

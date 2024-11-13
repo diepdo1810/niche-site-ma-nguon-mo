@@ -4,7 +4,7 @@ import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
 export interface Props {
-  activeNav?: "posts" | "archives" | "tags" | "about" | "search";
+  activeNav?: "posts" | "archives" | "tags" | "about" | "search" | "categories";
 }
 
 const { activeNav } = Astro.props;
@@ -55,6 +55,11 @@ const { activeNav } = Astro.props;
           </svg>
         </button>
         <ul id="menu-items" class="display-none sm:flex">
+          <li>
+            <a href="/chuyen-muc/" class={activeNav === "categories" ? "active" : ""}>
+              Chuyên mục
+            </a>
+          </li>
           <li class="hidden">
             <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
               Posts
@@ -171,7 +176,7 @@ const { activeNav } = Astro.props;
     @apply absolute -top-full left-16 z-50 bg-skin-accent px-3 py-2 text-skin-inverted transition-all focus:top-4;
   }
   .nav-container {
-    @apply mx-auto flex max-w-3xl flex-col items-center justify-between sm:flex-row;
+    @apply mx-auto flex max-w-4xl flex-col items-center justify-between sm:flex-row;
   }
   .top-nav-wrap {
     @apply relative flex w-full items-start justify-between p-4 sm:items-center sm:py-8;

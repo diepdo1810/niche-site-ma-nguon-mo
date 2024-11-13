@@ -12,7 +12,8 @@
       "draft: ${6|true,false|}",
       "tags:",
       "  - $7",
-      "description: $8",
+      "category: $8",
+      "description: $9",
       "---",
     ],
     "description": "Adds the frontmatter block for the AstroPaper Blog post"

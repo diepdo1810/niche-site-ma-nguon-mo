@@ -10,25 +10,29 @@ const breadcrumbDisplayList = [...breadcrumbList];
 
 // Capitalize first letter of each word
 if (breadcrumbDisplayList[0] === "tu-khoa") {
-  breadcrumbDisplayList[0] = "Từ khóa";
+  breadcrumbDisplayList[0] = "Từ Khóa";
 }
 
 if (breadcrumbDisplayList[0] === "bai-viet") {
   const page = breadcrumbDisplayList[1] || 1;
-  breadcrumbDisplayList[0] = `Bài viết (Trang ${page})`;
-  breadcrumbDisplayList[1] = 'Kiến Thức và Cảm Hứng'
+  breadcrumbDisplayList[1] = `Bài Viết (Trang ${page})`;
+  breadcrumbDisplayList[0] = 'Khám Phá Mã Nguồn Mở'
+}
+
+if (breadcrumbDisplayList[0] === "chuyen-muc") {
+  breadcrumbDisplayList[0] = "Chuyên Mục";
 }
 
 if (breadcrumbDisplayList[0] === "ve-blog") {
-  breadcrumbDisplayList[0] = "Về blog";
+  breadcrumbDisplayList[0] = "Về Blog";
 }
 
 if (breadcrumbDisplayList[0] === "luu-tru") {
-  breadcrumbDisplayList[0] = "Lưu trữ";
+  breadcrumbDisplayList[0] = "Lưu Trữ";
 }
 
 if (breadcrumbDisplayList[0] === "tim-kiem") {
-  breadcrumbDisplayList[0] = "Tìm kiếm";
+  breadcrumbDisplayList[0] = "Tìm Kiếm";
 }
 
 breadcrumbList[0] === "posts" &&
@@ -64,7 +68,6 @@ if (breadcrumbDisplayList[0] === "Từ khóa" && !isNaN(Number(breadcrumbDisplay
         index + 1 === breadcrumbDisplayList.length ? (
           <li>
             <span
-              class={`${index > 0 ? "lowercase" : "capitalize"}`}
               aria-current="page"
             >
               {decodeURIComponent(breadcrumb)}
@@ -83,7 +86,7 @@ if (breadcrumbDisplayList[0] === "Từ khóa" && !isNaN(Number(breadcrumbDisplay
 
 <style>
   .breadcrumb {
-    @apply mx-auto mb-1 mt-8 w-full max-w-3xl px-4;
+    @apply mx-auto mb-1 mt-8 w-full max-w-4xl px-4;
   }
   .breadcrumb ul li {
     @apply inline;

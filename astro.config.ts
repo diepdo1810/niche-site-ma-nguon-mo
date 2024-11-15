@@ -16,7 +16,6 @@ export default defineConfig({
     react(),
     sitemap({
       filter: (page) => {
-        console.log(page);
         const excludedPaths = ["/posts/", "/tags/", "/about/", "/archives/", "/search/"];
         return !excludedPaths.some(path => page.includes(path));
       },
@@ -24,11 +23,12 @@ export default defineConfig({
   ],
   markdown: {
     remarkPlugins: [
-      remarkToc,
+      [remarkToc, { heading: "Nội dung" }],
       [
         remarkCollapse,
         {
-          test: "Table of contents",
+          test: "Nội dung",
+          summary: "Mục lục",
         },
       ],
     ],

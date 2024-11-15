@@ -11,6 +11,7 @@ import { SITE } from "@config";
 const posts = await getCollection("blog");
 
 let categories = getUniqueCategories(posts);
+console.log(categories);
 ---
 
 <Layout title={`Chuyên Mục | ${SITE.title}`} titleMeta="Khám Phá Các Chuyên Mục Công Nghệ – Danh Sách Chuyên Mục Nổi Bật"
@@ -23,7 +24,7 @@ let categories = getUniqueCategories(posts);
       )
     }
     <ul>
-      {categories.map(({ category }) => <Category {category} size="lg" />)}
+      {categories.map(({ category, categoryName  }) => <Category {category} size="lg" {categoryName} />)}
     </ul>
   </Main>
   <Footer />

@@ -11,12 +11,18 @@ const breadcrumbDisplayList = [...breadcrumbList];
 // Capitalize first letter of each word
 if (breadcrumbDisplayList[0] === "tu-khoa") {
   breadcrumbDisplayList[0] = "Từ Khóa";
+  breadcrumbDisplayList[1] = "Khám Phá Từ Khóa Công Nghệ";
 }
 
 if (breadcrumbDisplayList[0] === "bai-viet") {
   const page = breadcrumbDisplayList[1] || 1;
   breadcrumbDisplayList[1] = `Bài Viết (Trang ${page})`;
-  breadcrumbDisplayList[0] = 'Khám Phá Mã Nguồn Mở'
+  breadcrumbDisplayList[0] = "Khám Phá Mã Nguồn Mở"
+}
+
+if (breadcrumbDisplayList[0] === "chuyen-muc") {
+  breadcrumbDisplayList[0] = "Chuyên Mục";
+  breadcrumbDisplayList[1] = "Khám Phá Các Chuyên Mục Công Nghệ"
 }
 
 if (breadcrumbDisplayList[0] === "chuyen-muc") {

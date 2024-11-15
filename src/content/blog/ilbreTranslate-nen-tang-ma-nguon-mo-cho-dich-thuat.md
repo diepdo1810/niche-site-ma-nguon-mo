@@ -85,8 +85,6 @@ LibreTranslate rất phù hợp để ứng dụng trong các dự án yêu cầ
 ---
 ### Hướng dẫn cơ bản về cách tải xuống và cài đặt LibreTranslate từ GitHub.
 
-### Hướng dẫn cài đặt LibreTranslate từ GitHub
-
 Để cài đặt LibreTranslate, bạn có thể chạy API server của riêng mình chỉ với vài bước đơn giản sau:
 
 1. **Đảm bảo rằng bạn đã cài đặt Python** (phiên bản 3.8 hoặc cao hơn).

@@ -1,8 +1,8 @@
 ---
 author: "manguonmo"
 pubDatetime: 2024-11-12T16:39:56.000+07:00
-modDatetime: 2024-11-16T16:39:56.000+07:00
-title: "LibreTranslate - Giải Pháp Dịch Thuật Mã Nguồn Mở Tự Host Hoàn Toàn Miễn Phí"
+modDatetime: 2024-11-18T16:39:56.000+07:00
+title: "Tự Chủ Với LibreTranslate - Giải Pháp Dịch Thuật Mã Nguồn Mở Miễn Phí"
 featured: false
 draft: false
 tags:
@@ -15,11 +15,38 @@ tags:
 category: "Dịch Mã Nguồn Mở"
 description: "Khám phá LibreTranslate - giải pháp dịch thuật mã nguồn mở miễn phí, tự host và hoạt động offline. Thay thế hoàn hảo cho Google Translate với khả năng tùy biến cao và bảo mật tốt hơn."
 ---
-
 Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự chủ và bảo mật? **LibreTranslate** chính là câu trả lời hoàn hảo! Đây là một công cụ **mã nguồn mở** cho phép bạn *tự triển khai* (self-host) hệ thống dịch thuật của riêng mình mà không cần phụ thuộc vào Google Translate hay bất kỳ dịch vụ độc quyền nào khác.
 
-Xem thêm:
- - [Top 5 công cụ dịch thuật mã nguồn mở mà bạn nên thử]('#')
+<div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+  <!-- Card 1 -->
+  <div class="p-4 bg-white shadow-md rounded-lg text-center h-full">
+    <h3 class="text-lg font-semibold text-blue-600">Độ Khó Khi Sử Dụng</h3>
+    <p class="text-gray-600 flex items-center justify-center gap-2 mt-2">
+      <span class="text-yellow-400 text-lg">⭐</span> Dễ Sử Dụng
+    </p>
+  </div>
+  <!-- Card 2 -->
+  <div class="p-4 bg-white shadow-md rounded-lg text-center h-full">
+    <h3 class="text-lg font-semibold text-blue-600">Mức Độ Phù Hợp</h3>
+    <p class="text-gray-600 flex items-center justify-center gap-2 mt-2">
+      <span class="text-green-500 text-lg">✔</span> Cá Nhân, Nhóm Nhỏ
+    </p>
+  </div>
+  <!-- Card 3 -->
+  <div class="p-4 bg-white shadow-md rounded-lg text-center h-full">
+    <h3 class="text-lg font-semibold text-blue-600">Đánh Giá Chung</h3>
+    <p class="text-gray-600 flex items-center justify-center gap-2 mt-2">
+      <span class="text-yellow-400 text-lg">⭐⭐⭐⭐</span> (4/5)
+    </p>
+  </div>
+  <!-- Card 4 -->
+  <div class="p-4 bg-white shadow-md rounded-lg text-center h-full">
+    <h3 class="text-lg font-semibold text-blue-600">Khả Năng Mở Rộng</h3>
+    <p class="text-gray-600 flex items-center justify-center gap-2 mt-2">
+      <span class="text-blue-500 text-lg">🔧</span> Linh Hoạt, Tùy Chỉnh
+    </p>
+  </div>
+</div>
 
 ## Nội dung
 
@@ -30,8 +57,6 @@ Xem thêm:
 Mã nguồn mở (Open Source) là khái niệm dùng để chỉ các phần mềm có mã nguồn được công khai, cho phép mọi người truy cập, tải về và tùy chỉnh theo nhu cầu. Các kho lưu trữ mã nguồn như GitHub là nơi bạn có thể tìm thấy nhiều phần mềm mã nguồn mở. Đặc biệt, bạn có thể sử dụng những phần mềm này trong các dự án cá nhân hoặc công ty mà không lo ngại về chi phí bản quyền.
 
 Một điểm độc đáo của mã nguồn mở là bạn có thể sửa đổi mã và phát triển thêm tính năng. Giả sử bạn đang tìm kiếm một phần mềm dịch thuật mã nguồn mở cho công ty, bạn có thể điều chỉnh phần mềm đó theo yêu cầu, thậm chí triển khai để tạo ra lợi nhuận.
-
-Xem thêm: [Ưu điểm và nhược điểm của mã nguồn mở trong phần mềm dịch thuật.]('#')
 
 **Tại sao mã nguồn mở lại quan trọng?**
 
@@ -48,7 +73,9 @@ Với những lợi ích này, mã nguồn mở không chỉ tiết kiệm mà c
 
 LibreTranslate ra đời từ một ý tưởng đơn giản nhưng đầy táo bạo: tạo ra một công cụ dịch thuật mà bất kỳ ai cũng có thể tự do sử dụng, tùy chỉnh và lưu trữ hoàn toàn riêng tư. Người sáng lập của nó, Piero Toffanin, đã bắt tay vào dự án này với tinh thần mã nguồn mở thực thụ – một tinh thần mà “tự do” không chỉ nằm ở chỗ miễn phí, mà còn ở quyền kiểm soát, sửa đổi và phát triển mà phần mềm trao cho người dùng.
 
-Câu chuyện bắt đầu khi Piero nộp đơn đăng ký nhãn hiệu cho LibreTranslate tại Mỹ. Đến khi nhận được phản hồi từ văn phòng nhãn hiệu, anh mới ngỡ ngàng nhận ra một vấn đề thú vị: họ nghĩ từ "libre" trong LibreTranslate chỉ đơn giản là "miễn phí", tức là dịch vụ không thu phí. Nhưng thực tế, "libre" ở đây có nghĩa là “tự do,” giống như tinh thần của mã nguồn mở – cho phép người dùng tự do khám phá, chỉnh sửa và chia sẻ mà không bị giới hạn. Piero đã phải giải thích rất kỹ về điều này, để làm rõ rằng LibreTranslate không chỉ đơn thuần là một công cụ miễn phí, mà còn là một nền tảng mà bạn có thể kiểm soát hoàn toàn.
+[^1]: Trích từ trong blog cá nhân của tác giả piero (chấm) dev.
+
+Câu chuyện bắt đầu khi Piero nộp đơn đăng ký nhãn hiệu cho LibreTranslate tại Mỹ[^1]. Đến khi nhận được phản hồi từ văn phòng nhãn hiệu, anh mới ngỡ ngàng nhận ra một vấn đề thú vị: họ nghĩ từ "libre" trong LibreTranslate chỉ đơn giản là "miễn phí", tức là dịch vụ không thu phí. Nhưng thực tế, "libre" ở đây có nghĩa là “tự do,” giống như tinh thần của mã nguồn mở – cho phép người dùng tự do khám phá, chỉnh sửa và chia sẻ mà không bị giới hạn. Piero đã phải giải thích rất kỹ về điều này, để làm rõ rằng LibreTranslate không chỉ đơn thuần là một công cụ miễn phí, mà còn là một nền tảng mà bạn có thể kiểm soát hoàn toàn.
 
 Không giống như Google Translate, LibreTranslate được thiết kế để bạn có thể tự triển khai, tự lưu trữ và sử dụng mà không phải chia sẻ dữ liệu với bên thứ ba. Điều này giúp nó trở thành một giải pháp lý tưởng cho các công ty hoặc tổ chức cần sự riêng tư và bảo mật cao. Bạn không chỉ tải phần mềm về và sử dụng, mà còn có thể tùy chỉnh, thêm tính năng mới, và biến LibreTranslate thành một công cụ phù hợp với nhu cầu riêng của mình.
 
@@ -116,9 +143,6 @@ LibreTranslate rất phù hợp để ứng dụng trong các dự án yêu cầ
        ```bash
        run.bat [args]
        ```
-
-Xem thêm: [Cách bổ sung model tiếng Việt vào LibreTranslate]('#')
-
 
 ## Tại sao LibreTranslate khác biệt với các dịch vụ API dịch thuật khác?
 

@@ -2,7 +2,7 @@
 author: "manguonmo"
 pubDatetime: 2024-11-12T16:39:56.000+07:00
 modDatetime: 2024-11-18T16:39:56.000+07:00
-title: "Tự Chủ Với LibreTranslate - Giải Pháp Dịch Thuật Mã Nguồn Mở Miễn Phí"
+title: "Tự Chủ Với LibreTranslate: Giải Pháp Dịch Thuật Mã Nguồn Mở Miễn Phí"
 featured: false
 draft: false
 tags:
@@ -50,7 +50,7 @@ Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự ch�
 
 ## Nội dung
 
-# LibreTranslate – Nền tảng mã nguồn mở cho dịch thuật
+# LibreTranslate: Nền tảng mã nguồn mở cho dịch thuật
 
 ## Mã nguồn mở là gì và tại sao lại quan trọng?
 ---

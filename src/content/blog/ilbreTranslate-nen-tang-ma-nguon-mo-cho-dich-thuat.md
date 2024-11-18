@@ -12,8 +12,8 @@ tags:
   - Phần mềm dịch tự do
   - Cộng đồng mã nguồn mở
   - Hỗ trợ mã nguồn mở
-category: "Dịch Mã Nguồn Mở"
-description: "Khám phá LibreTranslate - giải pháp dịch thuật mã nguồn mở miễn phí, tự host và hoạt động offline. Thay thế hoàn hảo cho Google Translate với khả năng tùy biến cao và bảo mật tốt hơn."
+category: "Dịch Thuật"
+description: "Khám phá LibreTranslate: giải pháp dịch thuật mã nguồn mở miễn phí, tự host và hoạt động offline. Thay thế hoàn hảo cho Google Translate với khả năng tùy biến cao và bảo mật tốt hơn."
 ---
 Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự chủ và bảo mật? **LibreTranslate** chính là câu trả lời hoàn hảo! Đây là một công cụ **mã nguồn mở** cho phép bạn *tự triển khai* (self-host) hệ thống dịch thuật của riêng mình mà không cần phụ thuộc vào Google Translate hay bất kỳ dịch vụ độc quyền nào khác.
 

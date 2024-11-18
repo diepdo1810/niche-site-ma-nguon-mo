@@ -18,65 +18,53 @@ description: "Khám phá LibreTranslate: giải pháp dịch thuật mã nguồn
 
 Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự chủ và bảo mật? **LibreTranslate** chính là câu trả lời hoàn hảo! Đây là một công cụ **mã nguồn mở** cho phép bạn _tự triển khai_ (self-host) hệ thống dịch thuật của riêng mình mà không cần phụ thuộc vào Google Translate hay bất kỳ dịch vụ độc quyền nào khác.
 
-<div class="grid grid-cols-2 gap-4 bg-gray-100 dark:bg-gray-800 p-4 rounded-lg transform transition-all duration-300 hover:shadow-xl">
+<div class="grid grid-cols-2 gap-4 bg-gray-100 dark:bg-gray-800 p-4 rounded-lg transition-all duration-300">
   
   <!-- Card 1 -->
-  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md 
-              hover:shadow-lg hover:scale-105 transition-all duration-300 
-              animate-fade-in-up" 
-       style="animation-delay: 0.1s">
-    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold 
-               transform transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400">
+  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md
+              hover:shadow-lg hover:bg-gray-50 dark:hover:bg-gray-600 
+              transition-all duration-300">
+    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold mb-2">
       Độ Khó Khi Sử Dụng
     </h3>
-    <p class="text-yellow-600 dark:text-yellow-300 text-md flex items-center gap-1
-              hover:text-yellow-500 transition-colors duration-300">
-      <span class="animate-bounce">⭐</span> Dễ Sử Dụng
+    <p class="text-yellow-600 dark:text-yellow-300 text-md flex items-center gap-1">
+      ⭐ Dễ Sử Dụng
     </p>
   </div>
 
   <!-- Card 2 -->
-  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md 
-              hover:shadow-lg hover:scale-105 transition-all duration-300
-              animate-fade-in-up"
-       style="animation-delay: 0.2s">
-    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold
-               transform transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400">
+  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md
+              hover:shadow-lg hover:bg-gray-50 dark:hover:bg-gray-600
+              transition-all duration-300">
+    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold mb-2">
       Mức Độ Phù Hợp
     </h3>
-    <p class="text-green-600 dark:text-green-400 text-md flex items-center gap-1
-              hover:text-green-500 transition-colors duration-300">
-      <span class="animate-pulse">✔</span> Cá Nhân, Nhóm Nhỏ
+    <p class="text-green-600 dark:text-green-400 text-md flex items-center gap-1">
+      ✔ Cá Nhân, Nhóm Nhỏ
     </p>
   </div>
 
   <!-- Card 3 -->
   <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md
-              hover:shadow-lg hover:scale-105 transition-all duration-300
-              animate-fade-in-up"
-       style="animation-delay: 0.3s">
-    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold
-               transform transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400">
+              hover:shadow-lg hover:bg-gray-50 dark:hover:bg-gray-600
+              transition-all duration-300">
+    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold mb-2">
       Đánh Giá Chung
     </h3>
-    <p class="text-yellow-600 dark:text-yellow-300 text-md flex items-center gap-1
-              hover:text-yellow-500 transition-colors duration-300">
-      <span class="animate-bounce">⭐⭐⭐⭐</span> (4/5)
+    <p class="text-yellow-600 dark:text-yellow-300 text-md flex items-center gap-1">
+      ⭐⭐⭐⭐ (4/5)
     </p>
   </div>
 
   <!-- Card 4 -->
   <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md
-              hover:shadow-lg hover:scale-105 transition-all duration-300
-              animate-fade-in-up"
-       style="animation-delay: 0.4s">
-    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold
-               transform transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400">
+              hover:shadow-lg hover:bg-gray-50 dark:hover:bg-gray-600
+              transition-all duration-300">
+    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold mb-2">
       Khả Năng Mở Rộng
     </h3>
-    <p class="text-blue-600 dark:text-blue-300 text-md flex items-center gap-1
-              hover:text-blue-500 transition-colors duration-300">
-      <span class="animate-spin-slow">🔧</span> Linh Hoạt, Tùy Chỉnh
+    <p class="text-blue-600 dark:text-blue-300 text-md flex items-center gap-1">
+      🔧 Linh Hoạt, Tùy Chỉnh
     </p>
   </div>
 </div>
@@ -201,33 +189,3 @@ Nếu bạn cần một giải pháp dịch thuật tự chủ và đáng tin c�
 Cảm ơn các bạn đã đọc đến cuối bài viết! Mình muốn chia sẻ với các bạn một câu chuyện về hành trình phát triển của phần mềm mã nguồn mở, hoặc bất kỳ phần mềm nào khác. Với mình, mỗi phần mềm mã nguồn mở như một ngôi nhà chung, nơi mọi người cùng nhau xây dựng nên từ những đóng góp nhỏ bé như viên gạch, xi măng, và cả công sức. Mỗi đóng góp đều tạo nên giá trị và ý nghĩa cho ngôi nhà ấy.
 
 Cảm ơn tất cả mọi người rất nhiều vì đã đồng hành! Đừng quên đón đọc bài viết mới của mình vào mỗi thứ 7 hàng tuần nhé. Cảm ơn các bạn!
-
-<style>
-   @keyframes fade-in-up {
-    0% {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .animate-fade-in-up {
-    animation: fade-in-up 0.5s ease-out forwards;
-  }
-
-  .animate-spin-slow {
-    animation: spin 3s linear infinite;
-  }
-
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-</style>

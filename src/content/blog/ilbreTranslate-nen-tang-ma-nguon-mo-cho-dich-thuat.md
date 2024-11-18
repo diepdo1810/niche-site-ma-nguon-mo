@@ -17,33 +17,65 @@ description: "Khám phá LibreTranslate: giải pháp dịch thuật mã nguồn
 ---
 Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự chủ và bảo mật? **LibreTranslate** chính là câu trả lời hoàn hảo! Đây là một công cụ **mã nguồn mở** cho phép bạn *tự triển khai* (self-host) hệ thống dịch thuật của riêng mình mà không cần phụ thuộc vào Google Translate hay bất kỳ dịch vụ độc quyền nào khác.
 
-<div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="grid grid-cols-2 gap-4 bg-gray-100 dark:bg-gray-800 p-4 rounded-lg transform transition-all duration-300 hover:shadow-xl">
+  
   <!-- Card 1 -->
-  <div class="p-4 bg-white shadow-md rounded-lg text-center h-full">
-    <h3 class="text-lg font-semibold text-blue-600">Độ Khó Khi Sử Dụng</h3>
-    <p class="text-gray-600 flex items-center justify-center gap-2 mt-2">
-      <span class="text-yellow-400 text-lg">⭐</span> Dễ Sử Dụng
+  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md 
+              hover:shadow-lg hover:scale-105 transition-all duration-300 
+              animate-fade-in-up" 
+       style="animation-delay: 0.1s">
+    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold 
+               transform transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400">
+      Độ Khó Khi Sử Dụng
+    </h3>
+    <p class="text-yellow-600 dark:text-yellow-300 text-md flex items-center gap-1
+              hover:text-yellow-500 transition-colors duration-300">
+      <span class="animate-bounce">⭐</span> Dễ Sử Dụng
     </p>
   </div>
+
   <!-- Card 2 -->
-  <div class="p-4 bg-white shadow-md rounded-lg text-center h-full">
-    <h3 class="text-lg font-semibold text-blue-600">Mức Độ Phù Hợp</h3>
-    <p class="text-gray-600 flex items-center justify-center gap-2 mt-2">
-      <span class="text-green-500 text-lg">✔</span> Cá Nhân, Nhóm Nhỏ
+  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md 
+              hover:shadow-lg hover:scale-105 transition-all duration-300
+              animate-fade-in-up"
+       style="animation-delay: 0.2s">
+    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold
+               transform transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400">
+      Mức Độ Phù Hợp
+    </h3>
+    <p class="text-green-600 dark:text-green-400 text-md flex items-center gap-1
+              hover:text-green-500 transition-colors duration-300">
+      <span class="animate-pulse">✔</span> Cá Nhân, Nhóm Nhỏ
     </p>
   </div>
+
   <!-- Card 3 -->
-  <div class="p-4 bg-white shadow-md rounded-lg text-center h-full">
-    <h3 class="text-lg font-semibold text-blue-600">Đánh Giá Chung</h3>
-    <p class="text-gray-600 flex items-center justify-center gap-2 mt-2">
-      <span class="text-yellow-400 text-lg">⭐⭐⭐⭐</span> (4/5)
+  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md
+              hover:shadow-lg hover:scale-105 transition-all duration-300
+              animate-fade-in-up"
+       style="animation-delay: 0.3s">
+    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold
+               transform transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400">
+      Đánh Giá Chung
+    </h3>
+    <p class="text-yellow-600 dark:text-yellow-300 text-md flex items-center gap-1
+              hover:text-yellow-500 transition-colors duration-300">
+      <span class="animate-bounce">⭐⭐⭐⭐</span> (4/5)
     </p>
   </div>
+
   <!-- Card 4 -->
-  <div class="p-4 bg-white shadow-md rounded-lg text-center h-full">
-    <h3 class="text-lg font-semibold text-blue-600">Khả Năng Mở Rộng</h3>
-    <p class="text-gray-600 flex items-center justify-center gap-2 mt-2">
-      <span class="text-blue-500 text-lg">🔧</span> Linh Hoạt, Tùy Chỉnh
+  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md
+              hover:shadow-lg hover:scale-105 transition-all duration-300
+              animate-fade-in-up"
+       style="animation-delay: 0.4s">
+    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold
+               transform transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400">
+      Khả Năng Mở Rộng
+    </h3>
+    <p class="text-blue-600 dark:text-blue-300 text-md flex items-center gap-1
+              hover:text-blue-500 transition-colors duration-300">
+      <span class="animate-spin-slow">🔧</span> Linh Hoạt, Tùy Chỉnh
     </p>
   </div>
 </div>
@@ -73,7 +105,7 @@ Với những lợi ích này, mã nguồn mở không chỉ tiết kiệm mà c
 
 LibreTranslate ra đời từ một ý tưởng đơn giản nhưng đầy táo bạo: tạo ra một công cụ dịch thuật mà bất kỳ ai cũng có thể tự do sử dụng, tùy chỉnh và lưu trữ hoàn toàn riêng tư. Người sáng lập của nó, Piero Toffanin, đã bắt tay vào dự án này với tinh thần mã nguồn mở thực thụ – một tinh thần mà “tự do” không chỉ nằm ở chỗ miễn phí, mà còn ở quyền kiểm soát, sửa đổi và phát triển mà phần mềm trao cho người dùng.
 
-[^1]: Trích từ trong blog cá nhân của tác giả piero (chấm) dev.
+[^1]: Trích từ trong blog cá nhân của tác giả "piero.dev/2024/02/that-time-i-had-to-explain-to-the-u-s-patent-office-that-libre-software-gratis/".
 
 Câu chuyện bắt đầu khi Piero nộp đơn đăng ký nhãn hiệu cho LibreTranslate tại Mỹ[^1]. Đến khi nhận được phản hồi từ văn phòng nhãn hiệu, anh mới ngỡ ngàng nhận ra một vấn đề thú vị: họ nghĩ từ "libre" trong LibreTranslate chỉ đơn giản là "miễn phí", tức là dịch vụ không thu phí. Nhưng thực tế, "libre" ở đây có nghĩa là “tự do,” giống như tinh thần của mã nguồn mở – cho phép người dùng tự do khám phá, chỉnh sửa và chia sẻ mà không bị giới hạn. Piero đã phải giải thích rất kỹ về điều này, để làm rõ rằng LibreTranslate không chỉ đơn thuần là một công cụ miễn phí, mà còn là một nền tảng mà bạn có thể kiểm soát hoàn toàn.
 
@@ -157,3 +189,33 @@ Nếu bạn cần một giải pháp dịch thuật tự chủ và đáng tin c�
 Cảm ơn các bạn đã đọc đến cuối bài viết! Mình muốn chia sẻ với các bạn một câu chuyện về hành trình phát triển của phần mềm mã nguồn mở, hoặc bất kỳ phần mềm nào khác. Với mình, mỗi phần mềm mã nguồn mở như một ngôi nhà chung, nơi mọi người cùng nhau xây dựng nên từ những đóng góp nhỏ bé như viên gạch, xi măng, và cả công sức. Mỗi đóng góp đều tạo nên giá trị và ý nghĩa cho ngôi nhà ấy.
 
 Cảm ơn tất cả mọi người rất nhiều vì đã đồng hành! Đừng quên đón đọc bài viết mới của mình vào mỗi thứ 7 hàng tuần nhé. Cảm ơn các bạn!
+
+<style>
+   @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.5s ease-out forwards;
+  }
+
+  .animate-spin-slow {
+    animation: spin 3s linear infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>

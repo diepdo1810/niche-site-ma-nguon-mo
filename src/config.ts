@@ -1,4 +1,5 @@
 import type { Site, SocialObjects } from "./types";
+import type { GiscusProps } from "@giscus/react";
 
 export const SITE: Site = {
   website: "https://manguonmo.tech/", // replace this with your deployed domain
@@ -155,3 +156,16 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
 ];
+
+export const GISCUS: GiscusProps = {
+  repo: "diepdo1810/niche-site-ma-nguon-mo",
+  repoId: "R_kgDONNbjkw",
+  category: "Q&A",
+  categoryId: "DIC_kwDONNbjk84CkW6r",
+  mapping: "pathname",
+  reactionsEnabled: "0",
+  emitMetadata: "0",
+  inputPosition: "bottom",
+  lang: "vi",
+  loading: "lazy",
+};

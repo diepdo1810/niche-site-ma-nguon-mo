@@ -2,7 +2,7 @@ import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import remarkToc from "remark-toc";
-import remarkGfm from 'remark-gfm'
+import remarkGfm from "remark-gfm";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
@@ -16,8 +16,14 @@ export default defineConfig({
     }),
     react(),
     sitemap({
-      filter: (page) => {
-        const excludedPaths = ["/posts/", "/tags/", "/about/", "/archives/", "/search/"];
+      filter: page => {
+        const excludedPaths = [
+          "/posts/",
+          "/tags/",
+          "/about/",
+          "/archives/",
+          "/search/",
+        ];
         return !excludedPaths.some(path => page.includes(path));
       },
     }),

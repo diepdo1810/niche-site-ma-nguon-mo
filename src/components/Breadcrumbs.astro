@@ -17,12 +17,12 @@ if (breadcrumbDisplayList[0] === "tu-khoa") {
 if (breadcrumbDisplayList[0] === "bai-viet") {
   const page = breadcrumbDisplayList[1] || 1;
   breadcrumbDisplayList[1] = `Bài Viết (Trang ${page})`;
-  breadcrumbDisplayList[0] = "Khám Phá Mã Nguồn Mở"
+  breadcrumbDisplayList[0] = "Khám Phá Mã Nguồn Mở";
 }
 
 if (breadcrumbDisplayList[0] === "chuyen-muc") {
   breadcrumbDisplayList[0] = "Chuyên Mục";
-  breadcrumbDisplayList[1] = "Khám Phá Các Chuyên Mục Công Nghệ"
+  breadcrumbDisplayList[1] = "Khám Phá Các Chuyên Mục Công Nghệ";
 }
 
 if (breadcrumbDisplayList[0] === "chuyen-muc") {
@@ -54,7 +54,10 @@ breadcrumbList[0] === "tags" &&
     }`
   );
 
-if (breadcrumbDisplayList[0] === "Từ khóa" && !isNaN(Number(breadcrumbDisplayList[2]))) {
+if (
+  breadcrumbDisplayList[0] === "Từ khóa" &&
+  !isNaN(Number(breadcrumbDisplayList[2]))
+) {
   breadcrumbDisplayList.splice(
     2,
     1,
@@ -73,11 +76,7 @@ if (breadcrumbDisplayList[0] === "Từ khóa" && !isNaN(Number(breadcrumbDisplay
       breadcrumbDisplayList.map((breadcrumb, index) =>
         index + 1 === breadcrumbDisplayList.length ? (
           <li>
-            <span
-              aria-current="page"
-            >
-              {decodeURIComponent(breadcrumb)}
-            </span>
+            <span aria-current="page">{decodeURIComponent(breadcrumb)}</span>
           </li>
         ) : (
           <li>

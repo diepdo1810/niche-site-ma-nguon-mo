@@ -15,35 +15,68 @@ tags:
 category: "Dịch Thuật"
 description: "Khám phá LibreTranslate: giải pháp dịch thuật mã nguồn mở miễn phí, tự host và hoạt động offline. Thay thế hoàn hảo cho Google Translate với khả năng tùy biến cao và bảo mật tốt hơn."
 ---
-Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự chủ và bảo mật? **LibreTranslate** chính là câu trả lời hoàn hảo! Đây là một công cụ **mã nguồn mở** cho phép bạn *tự triển khai* (self-host) hệ thống dịch thuật của riêng mình mà không cần phụ thuộc vào Google Translate hay bất kỳ dịch vụ độc quyền nào khác.
 
-<div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự chủ và bảo mật? **LibreTranslate** chính là câu trả lời hoàn hảo! Đây là một công cụ **mã nguồn mở** cho phép bạn _tự triển khai_ (self-host) hệ thống dịch thuật của riêng mình mà không cần phụ thuộc vào Google Translate hay bất kỳ dịch vụ độc quyền nào khác.
+
+<div class="grid grid-cols-2 gap-4 bg-gray-100 dark:bg-gray-800 p-4 rounded-lg transform transition-all duration-300 hover:shadow-xl">
+  
   <!-- Card 1 -->
-  <div class="p-4 bg-white shadow-md rounded-lg text-center h-full">
-    <h3 class="text-lg font-semibold text-blue-600">Độ Khó Khi Sử Dụng</h3>
-    <p class="text-gray-600 flex items-center justify-center gap-2 mt-2">
-      <span class="text-yellow-400 text-lg">⭐</span> Dễ Sử Dụng
+  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md 
+              hover:shadow-lg hover:scale-105 transition-all duration-300 
+              animate-fade-in-up" 
+       style="animation-delay: 0.1s">
+    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold 
+               transform transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400">
+      Độ Khó Khi Sử Dụng
+    </h3>
+    <p class="text-yellow-600 dark:text-yellow-300 text-md flex items-center gap-1
+              hover:text-yellow-500 transition-colors duration-300">
+      <span class="animate-bounce">⭐</span> Dễ Sử Dụng
     </p>
   </div>
+
   <!-- Card 2 -->
-  <div class="p-4 bg-white shadow-md rounded-lg text-center h-full">
-    <h3 class="text-lg font-semibold text-blue-600">Mức Độ Phù Hợp</h3>
-    <p class="text-gray-600 flex items-center justify-center gap-2 mt-2">
-      <span class="text-green-500 text-lg">✔</span> Cá Nhân, Nhóm Nhỏ
+  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md 
+              hover:shadow-lg hover:scale-105 transition-all duration-300
+              animate-fade-in-up"
+       style="animation-delay: 0.2s">
+    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold
+               transform transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400">
+      Mức Độ Phù Hợp
+    </h3>
+    <p class="text-green-600 dark:text-green-400 text-md flex items-center gap-1
+              hover:text-green-500 transition-colors duration-300">
+      <span class="animate-pulse">✔</span> Cá Nhân, Nhóm Nhỏ
     </p>
   </div>
+
   <!-- Card 3 -->
-  <div class="p-4 bg-white shadow-md rounded-lg text-center h-full">
-    <h3 class="text-lg font-semibold text-blue-600">Đánh Giá Chung</h3>
-    <p class="text-gray-600 flex items-center justify-center gap-2 mt-2">
-      <span class="text-yellow-400 text-lg">⭐⭐⭐⭐</span> (4/5)
+  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md
+              hover:shadow-lg hover:scale-105 transition-all duration-300
+              animate-fade-in-up"
+       style="animation-delay: 0.3s">
+    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold
+               transform transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400">
+      Đánh Giá Chung
+    </h3>
+    <p class="text-yellow-600 dark:text-yellow-300 text-md flex items-center gap-1
+              hover:text-yellow-500 transition-colors duration-300">
+      <span class="animate-bounce">⭐⭐⭐⭐</span> (4/5)
     </p>
   </div>
+
   <!-- Card 4 -->
-  <div class="p-4 bg-white shadow-md rounded-lg text-center h-full">
-    <h3 class="text-lg font-semibold text-blue-600">Khả Năng Mở Rộng</h3>
-    <p class="text-gray-600 flex items-center justify-center gap-2 mt-2">
-      <span class="text-blue-500 text-lg">🔧</span> Linh Hoạt, Tùy Chỉnh
+  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md
+              hover:shadow-lg hover:scale-105 transition-all duration-300
+              animate-fade-in-up"
+       style="animation-delay: 0.4s">
+    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold
+               transform transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400">
+      Khả Năng Mở Rộng
+    </h3>
+    <p class="text-blue-600 dark:text-blue-300 text-md flex items-center gap-1
+              hover:text-blue-500 transition-colors duration-300">
+      <span class="animate-spin-slow">🔧</span> Linh Hoạt, Tùy Chỉnh
     </p>
   </div>
 </div>
@@ -53,7 +86,9 @@ Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự ch�
 # LibreTranslate: Nền tảng mã nguồn mở cho dịch thuật
 
 ## Mã nguồn mở là gì và tại sao lại quan trọng?
+
 ---
+
 Mã nguồn mở (Open Source) là khái niệm dùng để chỉ các phần mềm có mã nguồn được công khai, cho phép mọi người truy cập, tải về và tùy chỉnh theo nhu cầu. Các kho lưu trữ mã nguồn như GitHub là nơi bạn có thể tìm thấy nhiều phần mềm mã nguồn mở. Đặc biệt, bạn có thể sử dụng những phần mềm này trong các dự án cá nhân hoặc công ty mà không lo ngại về chi phí bản quyền.
 
 Một điểm độc đáo của mã nguồn mở là bạn có thể sửa đổi mã và phát triển thêm tính năng. Giả sử bạn đang tìm kiếm một phần mềm dịch thuật mã nguồn mở cho công ty, bạn có thể điều chỉnh phần mềm đó theo yêu cầu, thậm chí triển khai để tạo ra lợi nhuận.
@@ -68,12 +103,14 @@ Một điểm độc đáo của mã nguồn mở là bạn có thể sửa đ�
 Với những lợi ích này, mã nguồn mở không chỉ tiết kiệm mà còn thúc đẩy sáng tạo, mở ra nhiều cơ hội phát triển bền vững trong công nghệ.
 
 ## Giới thiệu LibreTranslate – Phần mềm dịch thuật mã nguồn mở
+
 ---
+
 ### LibreTranslate là gì?
 
 LibreTranslate ra đời từ một ý tưởng đơn giản nhưng đầy táo bạo: tạo ra một công cụ dịch thuật mà bất kỳ ai cũng có thể tự do sử dụng, tùy chỉnh và lưu trữ hoàn toàn riêng tư. Người sáng lập của nó, Piero Toffanin, đã bắt tay vào dự án này với tinh thần mã nguồn mở thực thụ – một tinh thần mà “tự do” không chỉ nằm ở chỗ miễn phí, mà còn ở quyền kiểm soát, sửa đổi và phát triển mà phần mềm trao cho người dùng.
 
-[^1]: Trích từ trong blog cá nhân của tác giả piero (chấm) dev.
+[^1]: Trích từ trong blog cá nhân của tác giả "piero.dev/2024/02/that-time-i-had-to-explain-to-the-u-s-patent-office-that-libre-software-gratis/".
 
 Câu chuyện bắt đầu khi Piero nộp đơn đăng ký nhãn hiệu cho LibreTranslate tại Mỹ[^1]. Đến khi nhận được phản hồi từ văn phòng nhãn hiệu, anh mới ngỡ ngàng nhận ra một vấn đề thú vị: họ nghĩ từ "libre" trong LibreTranslate chỉ đơn giản là "miễn phí", tức là dịch vụ không thu phí. Nhưng thực tế, "libre" ở đây có nghĩa là “tự do,” giống như tinh thần của mã nguồn mở – cho phép người dùng tự do khám phá, chỉnh sửa và chia sẻ mà không bị giới hạn. Piero đã phải giải thích rất kỹ về điều này, để làm rõ rằng LibreTranslate không chỉ đơn thuần là một công cụ miễn phí, mà còn là một nền tảng mà bạn có thể kiểm soát hoàn toàn.
 
@@ -82,6 +119,7 @@ Không giống như Google Translate, LibreTranslate được thiết kế để
 LibreTranslate không chỉ là một giải pháp dịch thuật mã nguồn mở, mà còn là biểu tượng cho tinh thần sáng tạo và tự do. Thay vì bị giới hạn trong khuôn khổ của một sản phẩm thương mại, LibreTranslate mời gọi cộng đồng cùng nhau xây dựng, chia sẻ và mở rộng khả năng của phần mềm. Chính điều này đã làm nên sự khác biệt của LibreTranslate – không chỉ là một công cụ, mà còn là một hành trình cùng khám phá và sáng tạo.
 
 ### Đặc điểm nổi bật của LibreTranslate:
+
 1. **Độ chính xác và chất lượng dịch thuật**  
    LibreTranslate cho cảm giác dịch tự nhiên hơn, nhất là với các ngôn ngữ được cộng đồng mã nguồn mở hỗ trợ. Dù không phủ sóng nhiều ngôn ngữ như Google Translate, nhưng với những ngôn ngữ có hỗ trợ, bản dịch của LibreTranslate dễ hiểu và phù hợp hơn với ngữ cảnh.
 
@@ -102,25 +140,30 @@ LibreTranslate không chỉ là một giải pháp dịch thuật mã nguồn m�
 LibreTranslate rất phù hợp để ứng dụng trong các dự án yêu cầu tính bảo mật cao, đặc biệt là trong môi trường doanh nghiệp. Các doanh nghiệp có thể triển khai LibreTranslate để dịch các tài liệu nội bộ mà không cần kết nối với bất kỳ dịch vụ bên ngoài nào, đảm bảo toàn bộ dữ liệu đều được bảo mật. Trong cộng đồng mã nguồn mở, LibreTranslate cũng được đón nhận và phát triển nhờ tính linh hoạt, dễ tích hợp vào các dự án khác nhau mà không phải lo ngại về chi phí. Phần mềm này phù hợp để triển khai trong các dự án quốc tế hoặc các tổ chức phi lợi nhuận, nơi yêu cầu một giải pháp dịch thuật đáng tin cậy và tiết kiệm chi phí.
 
 ## Hướng dẫn cài đặt LibreTranslate từ GitHub
+
 ---
+
 ### Hướng dẫn cơ bản về cách tải xuống và cài đặt LibreTranslate từ GitHub.
 
 Để cài đặt LibreTranslate, bạn có thể chạy API server của riêng mình chỉ với vài bước đơn giản sau:
 
 1. **Đảm bảo rằng bạn đã cài đặt Python** (phiên bản 3.8 hoặc cao hơn).
-   
 2. **Cài đặt LibreTranslate** bằng lệnh sau:
+
    ```bash
    pip install libretranslate
    ```
 
 3. **Chạy LibreTranslate**:
+
    ```bash
    libretranslate [args]
    ```
+
    Sau khi chạy lệnh này, mở trình duyệt và truy cập vào địa chỉ [http://localhost:5000](http://localhost:5000).
 
 4. **Tùy chọn hỗ trợ ngôn ngữ**:
+
    - Theo mặc định, LibreTranslate sẽ cài đặt hỗ trợ cho tất cả các ngôn ngữ có sẵn.
    - Nếu bạn chỉ muốn tải một số ngôn ngữ nhất định để giảm thời gian khởi động, hãy sử dụng tham số `--load-only`:
      ```bash
@@ -128,6 +171,7 @@ LibreTranslate rất phù hợp để ứng dụng trong các dự án yêu cầ
      ```
 
 5. **Cài đặt trên Ubuntu 20.04**:
+
    - Trên Ubuntu 20.04, bạn có thể sử dụng script cài đặt sẵn từ GitHub:
      ```bash
      https://github.com/argosopentech/LibreTranslate-init
@@ -157,3 +201,33 @@ Nếu bạn cần một giải pháp dịch thuật tự chủ và đáng tin c�
 Cảm ơn các bạn đã đọc đến cuối bài viết! Mình muốn chia sẻ với các bạn một câu chuyện về hành trình phát triển của phần mềm mã nguồn mở, hoặc bất kỳ phần mềm nào khác. Với mình, mỗi phần mềm mã nguồn mở như một ngôi nhà chung, nơi mọi người cùng nhau xây dựng nên từ những đóng góp nhỏ bé như viên gạch, xi măng, và cả công sức. Mỗi đóng góp đều tạo nên giá trị và ý nghĩa cho ngôi nhà ấy.
 
 Cảm ơn tất cả mọi người rất nhiều vì đã đồng hành! Đừng quên đón đọc bài viết mới của mình vào mỗi thứ 7 hàng tuần nhé. Cảm ơn các bạn!
+
+<style>
+   @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.5s ease-out forwards;
+  }
+
+  .animate-spin-slow {
+    animation: spin 3s linear infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>

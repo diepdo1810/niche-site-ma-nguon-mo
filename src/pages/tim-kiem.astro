@@ -21,8 +21,11 @@ const searchList = sortedPosts.map(({ data, slug }) => ({
 }));
 ---
 
-<Layout title={`Tìm kiếm | ${SITE.title}`} titleMeta="Tìm Kiếm Mã Nguồn Mở – Tìm Tài Nguyên Công Nghệ Nhanh Chóng"
-        descriptionMeta="Tìm kiếm thông tin về mã nguồn mở và công nghệ dễ dàng, khám phá tài liệu và tài nguyên công nghệ hữu ích.">
+<Layout
+  title={`Tìm kiếm | ${SITE.title}`}
+  titleMeta="Tìm Kiếm Mã Nguồn Mở – Tìm Tài Nguyên Công Nghệ Nhanh Chóng"
+  descriptionMeta="Tìm kiếm thông tin về mã nguồn mở và công nghệ dễ dàng, khám phá tài liệu và tài nguyên công nghệ hữu ích."
+>
   <Header activeNav="search" />
   <Main pageTitle="Tìm kiếm" pageDesc="Tìm kiếm bất kỳ bài viết nào ...">
     <SearchBar client:load searchList={searchList} />

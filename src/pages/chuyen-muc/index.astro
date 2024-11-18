@@ -14,17 +14,23 @@ let categories = getUniqueCategories(posts);
 console.log(categories);
 ---
 
-<Layout title={`Chuyên Mục | ${SITE.title}`} titleMeta="Khám Phá Các Chuyên Mục Công Nghệ – Danh Sách Chuyên Mục Nổi Bật"
-        descriptionMeta="Danh sách chuyên mục và chủ đề công nghệ phổ biến, giúp bạn tìm kiếm kiến thức và cập nhật xu hướng công nghệ mới.">
+<Layout
+  title={`Chuyên Mục | ${SITE.title}`}
+  titleMeta="Khám Phá Các Chuyên Mục Công Nghệ – Danh Sách Chuyên Mục Nổi Bật"
+  descriptionMeta="Danh sách chuyên mục và chủ đề công nghệ phổ biến, giúp bạn tìm kiếm kiến thức và cập nhật xu hướng công nghệ mới."
+>
   <Header activeNav="categories" />
-  <Main pageTitle="Chuyên Mục" pageDesc="Tất cả các chuyên mục được sử dụng trong bài viết.">
-    {
-      categories.length === 0 && (
-        <p>Không có chuyên mục nào.</p>
-      )
-    }
+  <Main
+    pageTitle="Chuyên Mục"
+    pageDesc="Tất cả các chuyên mục được sử dụng trong bài viết."
+  >
+    {categories.length === 0 && <p>Không có chuyên mục nào.</p>}
     <ul>
-      {categories.map(({ category, categoryName  }) => <Category {category} size="lg" {categoryName} />)}
+      {
+        categories.map(({ category, categoryName }) => (
+          <Category {category} size="lg" {categoryName} />
+        ))
+      }
     </ul>
   </Main>
   <Footer />

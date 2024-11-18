@@ -56,7 +56,10 @@ const { activeNav } = Astro.props;
         </button>
         <ul id="menu-items" class="display-none sm:flex">
           <li>
-            <a href="/chuyen-muc/" class={activeNav === "categories" ? "active" : ""}>
+            <a
+              href="/chuyen-muc/"
+              class={activeNav === "categories" ? "active" : ""}
+            >
               Chuyên Mục
             </a>
           </li>
@@ -70,7 +73,7 @@ const { activeNav } = Astro.props;
               Bài viết
             </a>
           </li>
-          <li class=hidden>
+          <li class="hidden">
             <a href="/tags/" class={activeNav === "tags" ? "active" : ""}>
               Tags
             </a>

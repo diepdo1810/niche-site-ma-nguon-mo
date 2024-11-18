@@ -1,4 +1,5 @@
 import type { Site, SocialObjects } from "./types";
+import type { GiscusProps } from "@giscus/react";
 
 export const SITE: Site = {
   website: "https://manguonmo.tech/", // replace this with your deployed domain
@@ -18,8 +19,9 @@ export const SITE: Site = {
 export const HERO = {
   enable: true,
   title: "Mã nguồn mở",
-  description: "👋 Mình đam mê mã nguồn mở và thích khám phá những dự án, công cụ thú vị trong cộng đồng công nghệ. Blog này là nơi mình chia sẻ trải nghiệm và kiến thức về mã nguồn mở, mong muốn truyền cảm hứng và mang lại thông tin hữu ích cho cả lập trình viên và những ai yêu thích công nghệ, dù chưa có nhiều kiến thức chuyên môn!",
-}
+  description:
+    "👋 Mình đam mê mã nguồn mở và thích khám phá những dự án, công cụ thú vị trong cộng đồng công nghệ. Blog này là nơi mình chia sẻ trải nghiệm và kiến thức về mã nguồn mở, mong muốn truyền cảm hứng và mang lại thông tin hữu ích cho cả lập trình viên và những ai yêu thích công nghệ, dù chưa có nhiều kiến thức chuyên môn!",
+};
 
 export const LOCALE = {
   lang: "vi", // html lang code. Set this empty and default will be "en"
@@ -155,3 +157,16 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
 ];
+
+export const GISCUS: GiscusProps = {
+  repo: "diepdo1810/niche-site-ma-nguon-mo",
+  repoId: "R_kgDONNbjkw",
+  category: "Q&A",
+  categoryId: "DIC_kwDONNbjk84CkW6r",
+  mapping: "pathname",
+  reactionsEnabled: "0",
+  emitMetadata: "0",
+  inputPosition: "bottom",
+  lang: "vi",
+  loading: "lazy",
+};

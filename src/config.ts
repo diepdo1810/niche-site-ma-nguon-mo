@@ -19,8 +19,9 @@ export const SITE: Site = {
 export const HERO = {
   enable: true,
   title: "Mã nguồn mở",
-  description: "👋 Mình đam mê mã nguồn mở và thích khám phá những dự án, công cụ thú vị trong cộng đồng công nghệ. Blog này là nơi mình chia sẻ trải nghiệm và kiến thức về mã nguồn mở, mong muốn truyền cảm hứng và mang lại thông tin hữu ích cho cả lập trình viên và những ai yêu thích công nghệ, dù chưa có nhiều kiến thức chuyên môn!",
-}
+  description:
+    "👋 Mình đam mê mã nguồn mở và thích khám phá những dự án, công cụ thú vị trong cộng đồng công nghệ. Blog này là nơi mình chia sẻ trải nghiệm và kiến thức về mã nguồn mở, mong muốn truyền cảm hứng và mang lại thông tin hữu ích cho cả lập trình viên và những ai yêu thích công nghệ, dù chưa có nhiều kiến thức chuyên môn!",
+};
 
 export const LOCALE = {
   lang: "vi", // html lang code. Set this empty and default will be "en"

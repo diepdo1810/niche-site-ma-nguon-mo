@@ -39,16 +39,19 @@ Sức mạnh của **mã nguồn mở** nằm ở cộng đồng. Bọn mình x�
 ## 🚀 Những Gì Bọn Mình Làm
 
 ### 1. Nội Dung Chất Lượng
+
 - Bài viết chuyên sâu về các dự án mã nguồn mở
 - Hướng dẫn chi tiết về sử dụng công cụ và phần mềm
 - Phân tích xu hướng và công nghệ mới
 
 ### 2. Hoạt Động Cộng Đồng
+
 - Workshop và meetup về mã nguồn mở
 - Hackathon và coding challenge
 - Mentoring cho người mới bắt đầu
 
 ### 3. Dự Án Thực Tế
+
 - Phát triển các dự án mã nguồn mở của riêng cộng đồng
 - Đóng góp cho các dự án quốc tế
 - Tạo các công cụ hữu ích cho cộng đồng
@@ -58,6 +61,7 @@ Sức mạnh của **mã nguồn mở** nằm ở cộng đồng. Bọn mình x�
 Bọn mình tin rằng **mã nguồn mở** sẽ tiếp tục định hình tương lai của công nghệ. Từ AI đến blockchain, từ web development đến mobile app, mã nguồn mở đang dẫn đầu trong việc tạo ra những đổi mới đột phá.
 
 ### Xu Hướng Mã Nguồn Mở Đang Phát Triển:
+
 - 🤖 AI và Machine Learning
 - 🔗 Blockchain và Web3
 - ☁️ Cloud Native Technologies
@@ -68,6 +72,7 @@ Bọn mình tin rằng **mã nguồn mở** sẽ tiếp tục định hình tư�
 Hành trình khám phá thế giới **mã nguồn mở** sẽ thú vị hơn nhiều khi có bạn đồng hành! Bọn mình luôn chào đón những thành viên mới với những ý tưởng fresh và góc nhìn độc đáo.
 
 ### Cách Để Kết Nối:
+
 - 💬 Tham gia Discord community của bọn mình
 - 📱 Follow Facebook page để cập nhật tin tức mới nhất
 - 🐦 Theo dõi Twitter để nhận thông báo về các sự kiện
@@ -79,6 +84,6 @@ Hành trình khám phá thế giới **mã nguồn mở** sẽ thú vị hơn nh
 
 ---
 
-> *"Tri thức chỉ thực sự có giá trị khi được chia sẻ"* - Đây là châm ngôn bọn mình luôn ghi nhớ và thực hiện mỗi ngày.
+> _"Tri thức chỉ thực sự có giá trị khi được chia sẻ"_ - Đây là châm ngôn bọn mình luôn ghi nhớ và thực hiện mỗi ngày.
 
 Hãy cùng bọn mình xây dựng một cộng đồng **mã nguồn mở** Việt Nam ngày càng lớn mạnh nhé! 🚀

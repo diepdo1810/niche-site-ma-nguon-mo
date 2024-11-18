@@ -31,4 +31,4 @@ export type Here = {
   enable: boolean;
   title: string;
   description: string;
-}
+};

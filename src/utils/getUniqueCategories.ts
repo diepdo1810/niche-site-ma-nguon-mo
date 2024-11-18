@@ -12,7 +12,10 @@ const getUniqueCategories = (posts: CollectionEntry<"blog">[]) => {
     .filter(postFilter)
     .map(post => post.data.category)
     .filter(category => category)
-    .map(category => ({ category: slugifyStr(category), categoryName: category }))
+    .map(category => ({
+      category: slugifyStr(category),
+      categoryName: category,
+    }))
     .filter(
       (value, index, self) =>
         self.findIndex(cat => cat.category === value.category) === index

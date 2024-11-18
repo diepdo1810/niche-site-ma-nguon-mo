@@ -15,7 +15,8 @@ tags:
 category: "Dịch Thuật"
 description: "Khám phá LibreTranslate: giải pháp dịch thuật mã nguồn mở miễn phí, tự host và hoạt động offline. Thay thế hoàn hảo cho Google Translate với khả năng tùy biến cao và bảo mật tốt hơn."
 ---
-Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự chủ và bảo mật? **LibreTranslate** chính là câu trả lời hoàn hảo! Đây là một công cụ **mã nguồn mở** cho phép bạn *tự triển khai* (self-host) hệ thống dịch thuật của riêng mình mà không cần phụ thuộc vào Google Translate hay bất kỳ dịch vụ độc quyền nào khác.
+
+Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự chủ và bảo mật? **LibreTranslate** chính là câu trả lời hoàn hảo! Đây là một công cụ **mã nguồn mở** cho phép bạn _tự triển khai_ (self-host) hệ thống dịch thuật của riêng mình mà không cần phụ thuộc vào Google Translate hay bất kỳ dịch vụ độc quyền nào khác.
 
 <div class="grid grid-cols-2 gap-4 bg-gray-100 dark:bg-gray-800 p-4 rounded-lg transform transition-all duration-300 hover:shadow-xl">
   
@@ -85,7 +86,9 @@ Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự ch�
 # LibreTranslate: Nền tảng mã nguồn mở cho dịch thuật
 
 ## Mã nguồn mở là gì và tại sao lại quan trọng?
+
 ---
+
 Mã nguồn mở (Open Source) là khái niệm dùng để chỉ các phần mềm có mã nguồn được công khai, cho phép mọi người truy cập, tải về và tùy chỉnh theo nhu cầu. Các kho lưu trữ mã nguồn như GitHub là nơi bạn có thể tìm thấy nhiều phần mềm mã nguồn mở. Đặc biệt, bạn có thể sử dụng những phần mềm này trong các dự án cá nhân hoặc công ty mà không lo ngại về chi phí bản quyền.
 
 Một điểm độc đáo của mã nguồn mở là bạn có thể sửa đổi mã và phát triển thêm tính năng. Giả sử bạn đang tìm kiếm một phần mềm dịch thuật mã nguồn mở cho công ty, bạn có thể điều chỉnh phần mềm đó theo yêu cầu, thậm chí triển khai để tạo ra lợi nhuận.
@@ -100,7 +103,9 @@ Một điểm độc đáo của mã nguồn mở là bạn có thể sửa đ�
 Với những lợi ích này, mã nguồn mở không chỉ tiết kiệm mà còn thúc đẩy sáng tạo, mở ra nhiều cơ hội phát triển bền vững trong công nghệ.
 
 ## Giới thiệu LibreTranslate – Phần mềm dịch thuật mã nguồn mở
+
 ---
+
 ### LibreTranslate là gì?
 
 LibreTranslate ra đời từ một ý tưởng đơn giản nhưng đầy táo bạo: tạo ra một công cụ dịch thuật mà bất kỳ ai cũng có thể tự do sử dụng, tùy chỉnh và lưu trữ hoàn toàn riêng tư. Người sáng lập của nó, Piero Toffanin, đã bắt tay vào dự án này với tinh thần mã nguồn mở thực thụ – một tinh thần mà “tự do” không chỉ nằm ở chỗ miễn phí, mà còn ở quyền kiểm soát, sửa đổi và phát triển mà phần mềm trao cho người dùng.
@@ -114,6 +119,7 @@ Không giống như Google Translate, LibreTranslate được thiết kế để
 LibreTranslate không chỉ là một giải pháp dịch thuật mã nguồn mở, mà còn là biểu tượng cho tinh thần sáng tạo và tự do. Thay vì bị giới hạn trong khuôn khổ của một sản phẩm thương mại, LibreTranslate mời gọi cộng đồng cùng nhau xây dựng, chia sẻ và mở rộng khả năng của phần mềm. Chính điều này đã làm nên sự khác biệt của LibreTranslate – không chỉ là một công cụ, mà còn là một hành trình cùng khám phá và sáng tạo.
 
 ### Đặc điểm nổi bật của LibreTranslate:
+
 1. **Độ chính xác và chất lượng dịch thuật**  
    LibreTranslate cho cảm giác dịch tự nhiên hơn, nhất là với các ngôn ngữ được cộng đồng mã nguồn mở hỗ trợ. Dù không phủ sóng nhiều ngôn ngữ như Google Translate, nhưng với những ngôn ngữ có hỗ trợ, bản dịch của LibreTranslate dễ hiểu và phù hợp hơn với ngữ cảnh.
 
@@ -134,25 +140,30 @@ LibreTranslate không chỉ là một giải pháp dịch thuật mã nguồn m�
 LibreTranslate rất phù hợp để ứng dụng trong các dự án yêu cầu tính bảo mật cao, đặc biệt là trong môi trường doanh nghiệp. Các doanh nghiệp có thể triển khai LibreTranslate để dịch các tài liệu nội bộ mà không cần kết nối với bất kỳ dịch vụ bên ngoài nào, đảm bảo toàn bộ dữ liệu đều được bảo mật. Trong cộng đồng mã nguồn mở, LibreTranslate cũng được đón nhận và phát triển nhờ tính linh hoạt, dễ tích hợp vào các dự án khác nhau mà không phải lo ngại về chi phí. Phần mềm này phù hợp để triển khai trong các dự án quốc tế hoặc các tổ chức phi lợi nhuận, nơi yêu cầu một giải pháp dịch thuật đáng tin cậy và tiết kiệm chi phí.
 
 ## Hướng dẫn cài đặt LibreTranslate từ GitHub
+
 ---
+
 ### Hướng dẫn cơ bản về cách tải xuống và cài đặt LibreTranslate từ GitHub.
 
 Để cài đặt LibreTranslate, bạn có thể chạy API server của riêng mình chỉ với vài bước đơn giản sau:
 
 1. **Đảm bảo rằng bạn đã cài đặt Python** (phiên bản 3.8 hoặc cao hơn).
-   
 2. **Cài đặt LibreTranslate** bằng lệnh sau:
+
    ```bash
    pip install libretranslate
    ```
 
 3. **Chạy LibreTranslate**:
+
    ```bash
    libretranslate [args]
    ```
+
    Sau khi chạy lệnh này, mở trình duyệt và truy cập vào địa chỉ [http://localhost:5000](http://localhost:5000).
 
 4. **Tùy chọn hỗ trợ ngôn ngữ**:
+
    - Theo mặc định, LibreTranslate sẽ cài đặt hỗ trợ cho tất cả các ngôn ngữ có sẵn.
    - Nếu bạn chỉ muốn tải một số ngôn ngữ nhất định để giảm thời gian khởi động, hãy sử dụng tham số `--load-only`:
      ```bash
@@ -160,6 +171,7 @@ LibreTranslate rất phù hợp để ứng dụng trong các dự án yêu cầ
      ```
 
 5. **Cài đặt trên Ubuntu 20.04**:
+
    - Trên Ubuntu 20.04, bạn có thể sử dụng script cài đặt sẵn từ GitHub:
      ```bash
      https://github.com/argosopentech/LibreTranslate-init

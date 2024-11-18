@@ -16,13 +16,14 @@ export interface Props {
 const { page } = Astro.props;
 ---
 
-<Layout title={`Bài viết | ${SITE.title}`} titleMeta="Bài Viết Mã Nguồn Mở – Hướng Dẫn, Tin Tức và Công Nghệ Mới"
-        descriptionMeta="Tổng hợp bài viết chuyên sâu về mã nguồn mở: Hướng dẫn lập trình, cập nhật công nghệ và tin tức mới nhất.">
+<Layout
+  title={`Bài viết | ${SITE.title}`}
+  titleMeta="Bài Viết Mã Nguồn Mở – Hướng Dẫn, Tin Tức và Công Nghệ Mới"
+  descriptionMeta="Tổng hợp bài viết chuyên sâu về mã nguồn mở: Hướng dẫn lập trình, cập nhật công nghệ và tin tức mới nhất."
+>
   <Header activeNav="posts" />
   <Main pageTitle="Bài viết" pageDesc="Tất cả các bài viết đã đăng.">
-    {page.data.length === 0 && (
-      <p>Không có bài viết nào.</p>
-    )}
+    {page.data.length === 0 && <p>Không có bài viết nào.</p>}
     <ul>
       {
         page.data.map(({ data, slug }) => (

@@ -49,14 +49,14 @@ description: "Khám phá LibreTranslate: giải pháp dịch thuật mã nguồn
              [&::-webkit-media-controls-time-remaining-display]:text-gray-800
              dark:[&::-webkit-media-controls-time-remaining-display]:text-gray-200"
     >
-      <source src="https://manguonmopodcast.b-cdn.net/podcats_1.mp3" type="audio/mpeg" />
+      <source src="https://manguonmopodcast.b-cdn.net/podcats_2.mp3" type="audio/mpeg" />
       Trình duyệt của bạn không hỗ trợ phát audio.
     </audio>
   </div>
   
   <div class="mt-4 text-center">
     <a 
-      href="https://manguonmopodcast.b-cdn.net/podcats_1.mp3" 
+      href="https://manguonmopodcast.b-cdn.net/podcats_2.mp3" 
       download 
       class="text-blue-600 dark:text-blue-400 hover:underline flex items-center justify-center"
     >
@@ -67,7 +67,7 @@ description: "Khám phá LibreTranslate: giải pháp dịch thuật mã nguồn
           clip-rule="evenodd" 
         />
       </svg>
-      Tải xuống Podcast
+      Tải xuống
     </a>
   </div>
 </div>

@@ -16,7 +16,7 @@ category: "Dịch Thuật"
 description: "Khám phá LibreTranslate: giải pháp dịch thuật mã nguồn mở miễn phí, tự host và hoạt động offline. Thay thế hoàn hảo cho Google Translate với khả năng tùy biến cao và bảo mật tốt hơn."
 ---
 
-## Nghe Podcast về LibreTranslate
+## Nghe Nội Dung Âm Thanh
 
 <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md max-w-2xl mx-auto my-8">
   <div class="flex items-center space-x-4 mb-4">
@@ -32,7 +32,7 @@ description: "Khám phá LibreTranslate: giải pháp dịch thuật mã nguồn
         Khám Phá LibreTranslate
       </h3>
       <p class="text-sm text-gray-600 dark:text-gray-400">
-        Podcast về mã nguồn mở và dịch thuật
+        Nghe nội dung tóm tắt về mã nguồn mở và dịch thuật
       </p>
     </div>
   </div>

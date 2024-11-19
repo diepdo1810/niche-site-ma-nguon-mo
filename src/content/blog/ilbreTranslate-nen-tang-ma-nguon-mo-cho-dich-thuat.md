@@ -16,6 +16,62 @@ category: "Dịch Thuật"
 description: "Khám phá LibreTranslate: giải pháp dịch thuật mã nguồn mở miễn phí, tự host và hoạt động offline. Thay thế hoàn hảo cho Google Translate với khả năng tùy biến cao và bảo mật tốt hơn."
 ---
 
+## Nghe Podcast về LibreTranslate
+
+<div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md max-w-2xl mx-auto my-8">
+  <div class="flex items-center space-x-4 mb-4">
+    <div class="flex-shrink-0">
+      <img 
+        src="https://manguonmopodcast.b-cdn.net/translate_logo.png" 
+        alt="LibreTranslate Podcast" 
+        class="w-16 h-16 rounded-full object-cover"
+      />
+    </div>
+    <div>
+      <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
+        Khám Phá LibreTranslate
+      </h3>
+      <p class="text-sm text-gray-600 dark:text-gray-400">
+        Podcast về mã nguồn mở và dịch thuật
+      </p>
+    </div>
+  </div>
+  
+  <div class="bg-white dark:bg-gray-700 rounded-lg p-4 shadow-inner">
+    <audio 
+      controls 
+      class="w-full h-12 focus:outline-none 
+             [&::-webkit-media-controls-enclosure]:rounded-lg
+             [&::-webkit-media-controls-panel]:bg-gray-200 
+             dark:[&::-webkit-media-controls-panel]:bg-gray-600
+             [&::-webkit-media-controls-current-time-display]:text-gray-800
+             dark:[&::-webkit-media-controls-current-time-display]:text-gray-200
+             [&::-webkit-media-controls-time-remaining-display]:text-gray-800
+             dark:[&::-webkit-media-controls-time-remaining-display]:text-gray-200"
+    >
+      <source src="https://manguonmopodcast.b-cdn.net/podcats_1.mp3" type="audio/mpeg" />
+      Trình duyệt của bạn không hỗ trợ phát audio.
+    </audio>
+  </div>
+  
+  <div class="mt-4 text-center">
+    <a 
+      href="https://manguonmopodcast.b-cdn.net/podcats_1.mp3" 
+      download 
+      class="text-blue-600 dark:text-blue-400 hover:underline flex items-center justify-center"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+        <path 
+          fill-rule="evenodd" 
+          d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" 
+          clip-rule="evenodd" 
+        />
+      </svg>
+      Tải xuống Podcast
+    </a>
+  </div>
+</div>
+
 Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự chủ và bảo mật? **LibreTranslate** chính là câu trả lời hoàn hảo! Đây là một công cụ **mã nguồn mở** cho phép bạn _tự triển khai_ (self-host) hệ thống dịch thuật của riêng mình mà không cần phụ thuộc vào Google Translate hay bất kỳ dịch vụ độc quyền nào khác.
 
 <div class="grid grid-cols-2 gap-4 bg-gray-100 dark:bg-gray-800 p-4 rounded-lg transition-all duration-300">

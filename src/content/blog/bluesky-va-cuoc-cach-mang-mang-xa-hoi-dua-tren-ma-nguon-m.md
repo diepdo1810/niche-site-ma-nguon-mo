@@ -34,7 +34,18 @@ Trong bài viết này, chúng ta sẽ cùng khám phá cách mã nguồn mở �
 
 # Lịch sử và sự phát triển
 
-## Nguồn gốc và cột mốc chính
+#### Nguồn gốc và Cột mốc chính  
+
+**Bluesky** ra đời vào năm 2019 như một dự án khởi nguồn từ Twitter, dưới sự chỉ đạo của **Jack Dorsey**, cựu CEO của nền tảng này. Ý tưởng của Bluesky không chỉ là xây dựng một mạng xã hội mới, mà còn định hình lại cách con người giao tiếp trên internet thông qua một nền tảng phi tập trung, nơi người dùng có toàn quyền kiểm soát dữ liệu cá nhân.  
+
+Dưới đây là những cột mốc quan trọng đánh dấu sự phát triển của Bluesky:  
+
+- **2019**: Bluesky được công bố bởi Jack Dorsey, khởi đầu như một sáng kiến nhằm nghiên cứu và phát triển một giao thức phi tập trung cho mạng xã hội.  
+- **2022**: Sau khi Elon Musk mua lại Twitter và đổi tên thành X, Jack Dorsey cùng đội ngũ của mình đã tập trung toàn lực để biến Bluesky thành một nền tảng độc lập.  
+- **Tháng 2/2023**: Bluesky chính thức ra mắt công khai dưới dạng beta, nhưng chỉ mở quyền truy cập thông qua lời mời, tạo ra sự tò mò lớn trong cộng đồng mạng xã hội.  
+- **2024**: Sau cuộc bầu cử Mỹ, Bluesky chứng kiến sự tăng trưởng vượt bậc, với hơn 1 triệu người dùng mới mỗi ngày, đặc biệt là từ Bắc Mỹ và châu Âu.  
+
+Bluesky không chỉ là một ứng dụng mạng xã hội, mà còn là tầm nhìn về một nền tảng giao tiếp tự do, minh bạch và bền vững – một phần quan trọng của hệ sinh thái mã nguồn mở trong thời đại số.  
 
 # Đặc điểm nổi bật
 

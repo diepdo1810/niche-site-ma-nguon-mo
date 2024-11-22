@@ -18,110 +18,117 @@ description: "Khám phá LibreTranslate: giải pháp dịch thuật mã nguồn
 
 ## Nghe Nội Dung Âm Thanh
 
-<div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md max-w-2xl mx-auto my-8">
-  <div class="flex items-center space-x-4 mb-4">
-    <div class="flex-shrink-0">
-      <img 
-        src="https://manguonmopodcast.b-cdn.net/translate_logo.png" 
-        alt="LibreTranslate Podcast" 
-        class="w-16 h-16 rounded-full object-cover"
-      />
+<div class="bg-white dark:bg-black text-gray-900 dark:text-white p-8 rounded-xl max-w-2xl mx-auto my-8 border-2 border-gray-200 dark:border-gray-800 relative overflow-hidden group hover:shadow-2xl transition-all duration-700 ease-in-out">
+  <!-- Enhanced decorative elements with smoother transitions -->
+  <div class="absolute top-0 right-0 w-32 h-32 bg-blue-100 dark:bg-blue-900/30 transform rotate-45 translate-x-16 -translate-y-16 transition-transform duration-700 ease-in-out group-hover:rotate-90"></div>
+  <div class="absolute bottom-0 left-0 w-24 h-24 bg-blue-500/20 dark:bg-blue-500/30 transform -rotate-12 -translate-x-8 translate-y-8 transition-all duration-700 ease-in-out group-hover:rotate-45"></div>
+  
+  <!-- Gradient overlay -->
+  <div class="absolute inset-0 bg-gradient-to-br from-transparent to-white/5 dark:to-black/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+  
+  <!-- Header Section with enhanced animations -->
+  <div class="flex flex-col md:flex-row items-start md:items-center space-y-6 md:space-y-0 md:space-x-8 mb-8 relative">
+    <div class="flex-shrink-0 transform perspective-1000 group-hover:rotate-y-12 transition-all duration-700 ease-in-out z-10">
+      <div class="relative">
+        <!-- Image glow effect -->
+        <div class="absolute inset-0 bg-blue-500/20 dark:bg-blue-400/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+        <img 
+          src="https://manguonmopodcast.b-cdn.net/translate_logo.png" 
+          alt="LibreTranslate Podcast" 
+          class="w-24 h-24 object-cover relative z-10 mix-blend-luminosity hover:mix-blend-normal transition-all duration-500 border-2 border-gray-200 dark:border-gray-800 rounded-lg shadow-lg"
+        />
+      </div>
     </div>
-    <div>
-      <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200">
+    <div class="space-y-3 transform transition-all duration-700 ease-in-out group-hover:translate-x-2">
+      <h3 class="text-3xl font-black uppercase tracking-wider text-gray-900 dark:text-white relative">
         Khám Phá LibreTranslate
+        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700 ease-in-out"></span>
       </h3>
-      <p class="text-sm text-gray-600 dark:text-gray-400">
+      <p class="text-lg font-mono text-gray-600 dark:text-gray-400 transform transition-all duration-500">
         Nghe nội dung tóm tắt về mã nguồn mở và dịch thuật
       </p>
     </div>
   </div>
   
-  <div class="bg-white dark:bg-gray-700 rounded-lg p-4 shadow-inner">
-    <audio 
-      controls 
-      class="w-full h-12 focus:outline-none 
-             [&::-webkit-media-controls-enclosure]:rounded-lg
-             [&::-webkit-media-controls-panel]:bg-gray-200 
-             dark:[&::-webkit-media-controls-panel]:bg-gray-600
-             [&::-webkit-media-controls-current-time-display]:text-gray-800
-             dark:[&::-webkit-media-controls-current-time-display]:text-gray-200
-             [&::-webkit-media-controls-time-remaining-display]:text-gray-800
-             dark:[&::-webkit-media-controls-time-remaining-display]:text-gray-200"
-    >
-      <source src="https://manguonmopodcast.b-cdn.net/podcats_1.mp3" type="audio/mpeg" />
-      Trình duyệt của bạn không hỗ trợ phát audio.
-    </audio>
-  </div>
-  
-  <div class="mt-4 text-center">
-    <a 
-      href="https://manguonmopodcast.b-cdn.net/podcats_1.mp3" 
-      download 
-      class="text-blue-600 dark:text-blue-400 hover:underline flex items-center justify-center"
-    >
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-        <path 
-          fill-rule="evenodd" 
-          d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" 
-          clip-rule="evenodd" 
-        />
-      </svg>
-      Tải xuống Podcast
-    </a>
+  <!-- Audio Player with enhanced styling -->
+  <div class="relative">
+    <!-- Player background glow -->
+    <div class="absolute inset-0 bg-blue-500/5 dark:bg-blue-400/5 blur-xl transform scale-y-0 group-hover:scale-y-100 transition-transform duration-700 rounded-xl"></div>
+    <div class="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg relative z-10 transform transition-transform duration-700 ease-in-out hover:translate-x-2 border border-gray-200 dark:border-gray-800">
+      <audio 
+        controls 
+        class="w-full h-12 focus:outline-none 
+               [&::-webkit-media-controls-enclosure]:border-none
+               [&::-webkit-media-controls-enclosure]:rounded-lg
+               [&::-webkit-media-controls-panel]:bg-white 
+               dark:[&::-webkit-media-controls-panel]:bg-gray-800
+               [&::-webkit-media-controls-current-time-display]:text-gray-900
+               dark:[&::-webkit-media-controls-current-time-display]:text-gray-100
+               [&::-webkit-media-controls-time-remaining-display]:text-gray-900
+               dark:[&::-webkit-media-controls-time-remaining-display]:text-gray-100
+               [&::-webkit-media-controls-play-button]:hover:brightness-90
+               [&::-webkit-media-controls-timeline]:hover:brightness-90"
+      >
+        <source src="https://manguonmopodcast.b-cdn.net/podcats_1.mp3" type="audio/mpeg" />
+        Trình duyệt của bạn không hỗ trợ phát audio.
+      </audio>
+    </div>
   </div>
 </div>
 
 Bạn đang tìm kiếm một giải pháp dịch thuật miễn phí, tự chủ và bảo mật? **LibreTranslate** chính là câu trả lời hoàn hảo! Đây là một công cụ **mã nguồn mở** cho phép bạn _tự triển khai_ (self-host) hệ thống dịch thuật của riêng mình mà không cần phụ thuộc vào Google Translate hay bất kỳ dịch vụ độc quyền nào khác.
 
-<div class="grid grid-cols-2 gap-4 bg-gray-100 dark:bg-gray-800 p-4 rounded-lg transition-all duration-300">
-  
-  <!-- Card 1 -->
-  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md
-              hover:shadow-lg hover:bg-gray-50 dark:hover:bg-gray-600 
-              transition-all duration-300">
-    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold mb-2">
-      Độ Khó Khi Sử Dụng
-    </h3>
-    <p class="text-yellow-600 dark:text-yellow-300 text-md flex items-center gap-1">
-      ⭐ Dễ Sử Dụng
-    </p>
+<div class="grid grid-cols-2 gap-4 p-4">
+  <div class="bg-blue-100 dark:bg-blue-900 p-4 rounded-lg shadow-md 
+               transition duration-300 ease-in-out 
+               hover:skew-y-2 hover:scale-105 
+               hover:shadow-xl 
+               hover:bg-blue-200 dark:hover:bg-blue-800">
+    <h3 class="text-xl font-bold text-blue-800 dark:text-blue-200 
+               transition duration-300 
+               group-hover:text-blue-900 dark:group-hover:text-blue-100">Dễ Dàng</h3>
+    <p class="text-sm text-blue-600 dark:text-blue-300 
+              transition duration-300 
+              group-hover:text-blue-700 dark:group-hover:text-blue-200">Triển khai nhanh chóng</p>
   </div>
 
-  <!-- Card 2 -->
-  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md
-              hover:shadow-lg hover:bg-gray-50 dark:hover:bg-gray-600
-              transition-all duration-300">
-    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold mb-2">
-      Mức Độ Phù Hợp
-    </h3>
-    <p class="text-green-600 dark:text-green-400 text-md flex items-center gap-1">
-      ✔ Cá Nhân, Nhóm Nhỏ
-    </p>
+  <div class="bg-green-100 dark:bg-green-900 p-4 rounded-lg shadow-md 
+               transition duration-300 ease-in-out 
+               hover:skew-y-2 hover:scale-105 
+               hover:shadow-xl 
+               hover:bg-green-200 dark:hover:bg-green-800">
+    <h3 class="text-xl font-bold text-green-800 dark:text-green-200 
+               transition duration-300 
+               group-hover:text-green-900 dark:group-hover:text-green-100">Tự Do</h3>
+    <p class="text-sm text-green-600 dark:text-green-300 
+              transition duration-300 
+              group-hover:text-green-700 dark:group-hover:text-green-200">Mã nguồn mở</p>
   </div>
 
-  <!-- Card 3 -->
-  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md
-              hover:shadow-lg hover:bg-gray-50 dark:hover:bg-gray-600
-              transition-all duration-300">
-    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold mb-2">
-      Đánh Giá Chung
-    </h3>
-    <p class="text-yellow-600 dark:text-yellow-300 text-md flex items-center gap-1">
-      ⭐⭐⭐⭐ (4/5)
-    </p>
+  <div class="bg-purple-100 dark:bg-purple-900 p-4 rounded-lg shadow-md 
+               transition duration-300 ease-in-out 
+               hover:skew-y-2 hover:scale-105 
+               hover:shadow-xl 
+               hover:bg-purple-200 dark:hover:bg-purple-800">
+    <h3 class="text-xl font-bold text-purple-800 dark:text-purple-200 
+               transition duration-300 
+               group-hover:text-purple-900 dark:group-hover:text-purple-100">Bảo Mật</h3>
+    <p class="text-sm text-purple-600 dark:text-purple-300 
+              transition duration-300 
+              group-hover:text-purple-700 dark:group-hover:text-purple-200">Riêng tư tuyệt đối</p>
   </div>
 
-  <!-- Card 4 -->
-  <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-4 rounded-md shadow-md
-              hover:shadow-lg hover:bg-gray-50 dark:hover:bg-gray-600
-              transition-all duration-300">
-    <h3 class="text-gray-800 dark:text-gray-200 text-lg font-semibold mb-2">
-      Khả Năng Mở Rộng
-    </h3>
-    <p class="text-blue-600 dark:text-blue-300 text-md flex items-center gap-1">
-      🔧 Linh Hoạt, Tùy Chỉnh
-    </p>
+  <div class="bg-indigo-100 dark:bg-indigo-900 p-4 rounded-lg shadow-md 
+               transition duration-300 ease-in-out 
+               hover:skew-y-2 hover:scale-105 
+               hover:shadow-xl 
+               hover:bg-indigo-200 dark:hover:bg-indigo-800">
+    <h3 class="text-xl font-bold text-indigo-800 dark:text-indigo-200 
+               transition duration-300 
+               group-hover:text-indigo-900 dark:group-hover:text-indigo-100">Linh Hoạt</h3>
+    <p class="text-sm text-indigo-600 dark:text-indigo-300 
+              transition duration-300 
+              group-hover:text-indigo-700 dark:group-hover:text-indigo-200">Tùy chỉnh không giới hạn</p>
   </div>
 </div>
 

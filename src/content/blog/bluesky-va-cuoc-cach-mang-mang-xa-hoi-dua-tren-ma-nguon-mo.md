@@ -1,7 +1,7 @@
 ---
 author: "manguonmo"
 pubDatetime: 2024-11-19T15:38:14.000+07:00
-modDatetime: 2024-11-22T15:38:14.000+07:00
+modDatetime: 2024-11-23T15:38:14.000+07:00
 title: "Bluesky và Cuộc Cách Mạng Mạng Xã Hội Dựa Trên Mã Nguồn Mở"
 featured: true
 draft: false
@@ -219,7 +219,7 @@ Bluesky không chỉ là một ứng dụng mạng xã hội, mà còn là một
 
      - Các nền tảng lớn như Threads (Meta) hay Mastodon (phi tập trung) vẫn là những đối thủ đáng gờm với lượng người dùng đông đảo và tài nguyên dồi dào.
 
-     ![so sánh Bluesky với các đối thủ như Threads](https://manguonmopodcast.b-cdn.net/bluesky-threads-web-us.webp)
+     ![so sánh Bluesky với các đối thủ như Threads](https://manguonmopodcast.b-cdn.net/bluesky-threads-web-worldwide.webp)
 
 2. **Tiềm năng phát triển**
    - **Lợi thế mã nguồn mở:**  
@@ -271,7 +271,7 @@ Sự phát triển của cộng đồng mã nguồn mở toàn cầu cũng giúp
 
 ## Vai trò trong Hệ Sinh Thái Mã Nguồn Mở
 
-!(Bluesky với sự mở rộng tính năn)[https://manguonmopodcast.b-cdn.net/header_picture.webp]
+![Bluesky với sự mở rộng tính năng](https://manguonmopodcast.b-cdn.net/header_picture.webp)
 
 Bluesky không chỉ là một mạng xã hội, mà còn là một phần quan trọng trong hệ sinh thái mã nguồn mở toàn cầu. Nền tảng này thúc đẩy:
 

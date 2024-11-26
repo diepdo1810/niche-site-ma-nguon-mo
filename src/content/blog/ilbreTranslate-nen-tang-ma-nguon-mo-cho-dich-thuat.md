@@ -18,7 +18,7 @@ description: "Khám phá LibreTranslate: giải pháp dịch thuật mã nguồn
 
 ## Nghe Nội Dung Âm Thanh
 
-<div class="bg-white dark:bg-black text-gray-900 dark:text-white p-8 rounded-xl max-w-2xl mx-auto my-8 border-2 border-gray-200 dark:border-gray-800 relative overflow-hidden group hover:shadow-2xl transition-all duration-700 ease-in-out">
+<div class="bg-white dark:bg-black text-gray-900 dark:text-white p-8 rounded-xl max-w-2xl mx-auto my-8 border-2 border-gray-200 dark:border-gray-800 relative overflow-hidden group hover:shadow-2xl transition-all duration-700 ease-in-out hidden">
   <!-- Enhanced decorative elements with smoother transitions -->
   <div class="absolute top-0 right-0 w-32 h-32 bg-blue-100 dark:bg-blue-900/30 transform rotate-45 translate-x-16 -translate-y-16 transition-transform duration-700 ease-in-out group-hover:rotate-90"></div>
   <div class="absolute bottom-0 left-0 w-24 h-24 bg-blue-500/20 dark:bg-blue-500/30 transform -rotate-12 -translate-x-8 translate-y-8 transition-all duration-700 ease-in-out group-hover:rotate-45"></div>

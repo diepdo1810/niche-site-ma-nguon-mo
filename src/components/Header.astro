@@ -11,26 +11,40 @@ const { activeNav } = Astro.props;
 ---
 
 <header>
-  <div class="bg-blue-500 text-white px-6 py-4 flex items-center justify-center">
-    <div class="max-w-2xl w-full flex items-center space-x-4 animate-fade-in-down">
+  <div
+    class="bg-blue-500 text-white px-6 py-4 flex items-center justify-center"
+  >
+    <div
+      class="max-w-2xl w-full flex items-center space-x-4 animate-fade-in-down"
+    >
       <!-- Icon với animation -->
       <div class="animate-bounce">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-10 w-10 text-white"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          ></path>
         </svg>
       </div>
       <!-- Nội dung thông báo -->
       <div class="flex-grow">
-        <p class="text-lg font-semibold mb-1 animate-fade-in">
-          Thông báo
-        </p>
+        <p class="text-lg font-semibold mb-1 animate-fade-in">Thông báo</p>
         <p class="text-sm font-bold animate-fade-in delay-100">
-          Chúng tôi đang nâng cấp tính năng nghe và hiển thị ảnh, sớm hoàn thiện để nâng cao trải nghiệm.
+          Chúng tôi đang nâng cấp tính năng nghe và hiển thị ảnh, sớm hoàn thiện
+          để nâng cao trải nghiệm.
         </p>
       </div>
     </div>
   </div>
-  
+
   <a id="skip-to-content" href="#main-content">Bỏ qua nội dung</a>
   <div class="nav-container">
     <div class="top-nav-wrap">

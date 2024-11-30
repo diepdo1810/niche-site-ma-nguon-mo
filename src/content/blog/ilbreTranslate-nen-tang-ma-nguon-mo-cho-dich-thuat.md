@@ -1,7 +1,7 @@
 ---
 author: "manguonmo"
 pubDatetime: 2024-11-12T16:39:56.000+07:00
-modDatetime: 2024-11-18T16:39:56.000+07:00
+modDatetime: 2024-11-16T16:39:56.000+07:00
 title: "Tự Chủ Với LibreTranslate: Giải Pháp Dịch Thuật Mã Nguồn Mở Miễn Phí"
 featured: false
 draft: false

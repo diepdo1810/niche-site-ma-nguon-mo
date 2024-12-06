@@ -3,7 +3,7 @@ author: "manguonmo"
 pubDatetime: 2024-11-19T15:38:14.000+07:00
 modDatetime: 2024-11-23T15:38:14.000+07:00
 title: "Bluesky và Cuộc Cách Mạng Mạng Xã Hội Dựa Trên Mã Nguồn Mở"
-featured: true
+featured: false
 draft: false
 tags:
   - Bluesky

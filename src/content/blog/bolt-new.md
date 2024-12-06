@@ -146,23 +146,42 @@ Với mục tiêu mang lại sự tiện lợi và linh hoạt, Bolt.new là l�
 
 ## Đánh giá từ Cộng Đồng[^1]
 
-<div class="flex flex-col gap-4 mb-7">
-   <div class="bg-gradient-to-r from-blue-500 to-purple-500 p-4 rounded-lg shadow-md">
-      <p class="text-lg font-bold text-white mb-2">Matt Green</p>
-      Dùng Bolt.new để xây landing page, tích hợp các thành phần React một cách liền mạch và triển khai qua Vercel. Quá tuyệt vời!
-   </div>
-   <div class="bg-gradient-to-r from-pink-500 to-orange-500 p-4 rounded-lg shadow-md">
-      <p class="text-lg font-bold text-white mb-2">Qaunain Meghjee</p>
-      <p class="text-md text-white">"Công cụ AI tốt nhất hiện tại cho phát triển phần mềm và sáng tạo ứng dụng."</p>
-   </div>
-   <div class="bg-gradient-to-r from-green-500 to-blue-500 p-4 rounded-lg shadow-md">
-      <p class="text-lg font-bold text-white mb-2">Iryna</p>
-      <p class="text-md text-white">"Một công cụ mạnh mẽ, giúp việc tạo mẫu và triển khai ứng dụng web trở nên dễ dàng và nhanh chóng."</p>
-   </div>
-   <div class="bg-gradient-to-r from-yellow-500 to-red-500 p-4 rounded-lg shadow-md">
-      <p class="text-lg font-bold text-white mb-2">B</p>
-      <p class="text-md text-white">"Tuyệt vời để tạo ứng dụng gần như hoàn chỉnh, nhưng xử lý lỗi tiêu tốn token khá nhiều."</p>
-   </div>
+<div class="grid md:grid-cols-2 gap-6 mb-7">
+  <div class="bg-white shadow-lg rounded-xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+    <div class="text-blue-500 text-4xl mb-4 opacity-50">❝</div>
+    <p class="text-gray-700 italic mb-4">"Dùng Bolt.new để xây landing page, tích hợp các thành phần React một cách liền mạch và triển khai qua Vercel. Quá tuyệt vời!"</p>
+    <div class="flex items-center">
+      <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4 text-blue-600">👤</div>
+      <span class="font-semibold text-gray-900">Matt Green</span>
+    </div>
+  </div>
+
+  <div class="bg-white shadow-lg rounded-xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+    <div class="text-blue-500 text-4xl mb-4 opacity-50">❝</div>
+    <p class="text-gray-700 italic mb-4">"Công cụ AI tốt nhất hiện tại cho phát triển phần mềm và sáng tạo ứng dụng."</p>
+    <div class="flex items-center">
+      <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4 text-blue-600">👤</div>
+      <span class="font-semibold text-gray-900">Qaunain Meghjee</span>
+    </div>
+  </div>
+
+  <div class="bg-white shadow-lg rounded-xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+    <div class="text-blue-500 text-4xl mb-4 opacity-50">❝</div>
+    <p class="text-gray-700 italic mb-4">"Một công cụ mạnh mẽ, giúp việc tạo mẫu và triển khai ứng dụng web trở nên dễ dàng và nhanh chóng."</p>
+    <div class="flex items-center">
+      <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4 text-blue-600">👤</div>
+      <span class="font-semibold text-gray-900">Iryna</span>
+    </div>
+  </div>
+
+  <div class="bg-white shadow-lg rounded-xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+    <div class="text-blue-500 text-4xl mb-4 opacity-50">❝</div>
+    <p class="text-gray-700 italic mb-4">"Tuyệt vời để tạo ứng dụng gần như hoàn chỉnh, nhưng xử lý lỗi tiêu tốn token khá nhiều."</p>
+    <div class="flex items-center">
+      <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4 text-blue-600">👤</div>
+      <span class="font-semibold text-gray-900">B</span>
+    </div>
+  </div>
 </div>
 
 # Những điểm cần cải thiện của Bolt.new

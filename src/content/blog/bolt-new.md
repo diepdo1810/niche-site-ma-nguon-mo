@@ -42,10 +42,12 @@ Với mục tiêu mang lại sự tiện lợi và linh hoạt, Bolt.new là l�
 ## **Điểm mạnh**
 
 1. **Môi trường phát triển toàn diện**:
+
    - Phát triển trực tiếp trên trình duyệt, hỗ trợ cài đặt npm, chạy Node.js và tương tác với API bên ngoài.
    - Tích hợp AI giúp khắc phục lỗi tự động, giảm thiểu rủi ro trong lập trình.
 
 2. **Công nghệ WebContainers tiên tiến**:
+
    - Chạy môi trường server-side ngay trong trình duyệt, tiết kiệm thời gian cài đặt và tăng tính bảo mật.
 
 3. **Khả năng triển khai nhanh**:
@@ -218,8 +220,8 @@ _Dữ liệu tổng hợp từ bài viết trên medium[^2]._
 
 # Kết luận
 
-Bolt.new không chỉ là một công cụ mã nguồn mở thông thường, mà còn là minh chứng rõ ràng cho sức mạnh của sự đổi mới trong phát triển web. Với các tính năng tiên tiến như WebContainers, tích hợp AI, và khả năng triển khai trực tiếp từ trình duyệt, Bolt.new đã đơn giản hóa quy trình phát triển, biến nó trở thành lựa chọn lý tưởng cho cả lập trình viên chuyên nghiệp lẫn người mới bắt đầu.  
+Bolt.new không chỉ là một công cụ mã nguồn mở thông thường, mà còn là minh chứng rõ ràng cho sức mạnh của sự đổi mới trong phát triển web. Với các tính năng tiên tiến như WebContainers, tích hợp AI, và khả năng triển khai trực tiếp từ trình duyệt, Bolt.new đã đơn giản hóa quy trình phát triển, biến nó trở thành lựa chọn lý tưởng cho cả lập trình viên chuyên nghiệp lẫn người mới bắt đầu.
 
-Tuy nhiên, không thể phủ nhận rằng Bolt.new vẫn có những hạn chế, như thiếu tính năng quản lý phiên bản hay chưa hỗ trợ đa dạng ngôn ngữ backend. Nhưng chính sự tham gia và đóng góp của cộng đồng là yếu tố giúp công cụ này ngày càng hoàn thiện.  
+Tuy nhiên, không thể phủ nhận rằng Bolt.new vẫn có những hạn chế, như thiếu tính năng quản lý phiên bản hay chưa hỗ trợ đa dạng ngôn ngữ backend. Nhưng chính sự tham gia và đóng góp của cộng đồng là yếu tố giúp công cụ này ngày càng hoàn thiện.
 
-Trong thế giới công nghệ luôn thay đổi, Bolt.new đại diện cho tầm nhìn về một tương lai nơi các công cụ phát triển web trở nên nhanh chóng, tiện lợi và dễ tiếp cận hơn bao giờ hết. Đối với bất kỳ ai muốn thử nghiệm hoặc bắt đầu dự án một cách nhanh chóng, Bolt.new chắc chắn là một lựa chọn đáng cân nhắc.  
+Trong thế giới công nghệ luôn thay đổi, Bolt.new đại diện cho tầm nhìn về một tương lai nơi các công cụ phát triển web trở nên nhanh chóng, tiện lợi và dễ tiếp cận hơn bao giờ hết. Đối với bất kỳ ai muốn thử nghiệm hoặc bắt đầu dự án một cách nhanh chóng, Bolt.new chắc chắn là một lựa chọn đáng cân nhắc.

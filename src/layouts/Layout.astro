@@ -113,7 +113,7 @@ const structuredData = {
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8V9EHB129M"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
+      (window as { dataLayer: Record<string, unknown>[] }).dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }

@@ -3,7 +3,7 @@ author: "manguonmo"
 pubDatetime: 2024-12-03T16:04:37.000+07:00
 modDatetime:
 title: "Bolt.new: Công Cụ Lập Trình Trong Trình Duyệt, Dễ Dùng và Mạnh Mẽ"
-featured: true
+featured: false
 draft: false
 tags:
   - Bolt.new

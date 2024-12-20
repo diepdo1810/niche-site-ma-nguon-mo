@@ -3,7 +3,7 @@ author: "manguonmo"
 pubDatetime: 2024-12-11T16:29:35.000+07:00
 modDatetime: 
 title: "Postiz: Giải pháp mã nguồn mở quản lý mạng xã hội toàn diện"
-featured: true
+featured: false
 draft: false
 tags:
   - postiz

@@ -3,7 +3,7 @@ author: "manguonmo"
 pubDatetime: 2024-11-25T20:17:04.000+07:00
 modDatetime: 2024-11-30T20:17:04.000+07:00
 title: "GPT4Free: Siêu phẩm mã nguồn mở trong thế giới AI"
-featured: true
+featured: false
 draft: false
 tags:
   - GPT4Free

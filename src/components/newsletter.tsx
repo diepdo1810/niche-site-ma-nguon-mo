@@ -1,30 +1,32 @@
-import { type ChangeEvent, type FormEvent, useEffect, useRef, useState } from "react";
-import client from "@mailchimp/mailchimp_marketing";
+import { type ChangeEvent, type FormEvent, useRef, useState } from "react";
 
 export default function Newsletter() {
   const inputRef = useRef<HTMLInputElement>(null);
   const [inputValue, setInputValue] = useState("");
-  const mailchimpKey = "9f063448b1ae12e91bd53c742a1ceca8-us9";
-  const mailchimpServer = "us9";
-  const mailchimpAudience = "b769d497eb";
-
-  client.setConfig({
-    apiKey: mailchimpKey,
-    server: mailchimpServer,
-  });
-
+  
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
     try {
-      const response = await client.lists.addListMember(mailchimpAudience, {
-        email_address: inputValue,
-        status: "subscribed",
-      });
+      const response = await fetch('/api/newsletter', {
+        method: 'POST',
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: inputValue
+        }),
+      })
+      const data = await response.json();
+      console.log(data);
 
-      if (response.status === 200) {
-        alert("Thank you for subscribing!");
+      if (data.status >= 400) {
+        alert('Có lỗi xảy ra. Vui lòng thử lại sau.');
+        return;
       }
+
+      console.log("Data", data);
+      alert("Subscribed successfully");
     } catch (e) {
       console.log(e);
       alert("Something went wrong. Please try again later.");

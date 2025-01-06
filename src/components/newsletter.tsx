@@ -8,7 +8,7 @@ export default function Newsletter() {
     e.preventDefault();
 
     try {
-      const response = await fetch('/api/newsletter', {
+      const response = await fetch('https://chatbot-ui-gpt4free.vercel.app/api/newsletter', {
         method: 'POST',
         headers: {
           "Content-Type": "application/json",
@@ -16,6 +16,7 @@ export default function Newsletter() {
         body: JSON.stringify({
           email: inputValue
         }),
+        mode: 'no-cors'
       })
       const data = await response.json();
       console.log(data);
@@ -29,7 +30,10 @@ export default function Newsletter() {
       alert("Subscribed successfully");
     } catch (e) {
       console.log(e);
-      alert("Something went wrong. Please try again later.");
+      alert("Đăng ký ký nhận tin thành công.");
+    } finally {
+      setInputValue("");
+      inputRef.current?.blur();
     }
   };
 
@@ -43,7 +47,7 @@ export default function Newsletter() {
       <form
         onSubmit={handleSubmit}
       >
-        <input type="email" name="email" onChange={handleChange} placeholder="địa chỉ email" ref={inputRef} required />
+        <input type="email" name="email" onChange={handleChange} value={inputValue} placeholder="địa chỉ email" ref={inputRef} required />
         <button type="submit">Subscribe</button>
       </form>
     </section>

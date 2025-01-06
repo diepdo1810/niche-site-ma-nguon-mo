@@ -1,6 +1,7 @@
 ---
 import Hr from "./Hr.astro";
 import Socials from "./Socials.astro";
+import Newsletter from "@components/newsletter";
 
 const currentYear = new Date().getFullYear();
 
@@ -13,6 +14,7 @@ const { noMarginTop = false } = Astro.props;
 
 <footer class={`${noMarginTop ? "" : "mt-auto"}`}>
   <Hr noPadding />
+  <Newsletter client:load />
   <div class="footer-wrapper">
     <Socials centered />
     <div class="copyright-wrapper">
@@ -41,5 +43,8 @@ const { noMarginTop = false } = Astro.props;
   }
   .separator {
     @apply hidden sm:inline;
+  }
+  .newsletter {
+      padding: 0 !important;
   }
 </style>

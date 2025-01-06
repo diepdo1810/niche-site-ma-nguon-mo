@@ -32,3 +32,6 @@ pnpm-debug.log*
 .pnp.*
 
 .idea/
+
+# Visual Studio Code
+.vscode/

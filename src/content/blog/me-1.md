@@ -3,7 +3,7 @@ author: "manguonmo"
 pubDatetime: 2024-12-27T13:44:07.000+07:00
 modDatetime: 
 title: "Phần 1: Các Mã Nguồn Mở Mình Đã Trải Nghiệm – Ẩm Thực, Âm Nhạc và Anime"
-featured: true
+featured: false
 draft: false
 tags:
   - Mã nguồn mở

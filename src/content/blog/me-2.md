@@ -3,7 +3,7 @@ author: "manguonmo"
 pubDatetime: 2025-01-07T10:18:36.000+07:00
 modDatetime: 
 title: "Phần 2: Các Mã Nguồn Mở Mình Đã Trải Nghiệm – Dịch Thuật, Ghi Chép và Mạng Xã Hội"
-featured: true
+featured: false
 draft: false
 tags:
   - Mã Nguồn Mở

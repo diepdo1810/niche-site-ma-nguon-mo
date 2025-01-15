@@ -3,7 +3,7 @@ author: "manguonmo"
 pubDatetime: 2024-12-20T13:43:20.000+07:00
 modDatetime: 
 title: "Khám Phá Các Công Cụ AI Mã Nguồn Mở Miễn Phí: Giải Pháp Tối Ưu Chi Phí Cho Mọi Người"
-featured: true
+featured: false
 draft: false
 tags:
   - AI free
